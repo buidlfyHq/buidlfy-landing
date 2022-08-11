@@ -1,0 +1,17 @@
+.preregister_bg {
+    background-image: url("../public/landing-bg.png");
+    height: 140vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    .inner_con {
+        padding-top: 10rem;
+
+        // .left_area {}
+
+        .right_area {
+            width: 55%;
+            margin-left: auto;
+        }
+    }
+}
