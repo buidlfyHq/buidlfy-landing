@@ -6,8 +6,141 @@
 
     .inner_con {
         padding-top: 10rem;
+        display: flex;
 
-        // .left_area {}
+        .left_area {
+            padding-left: 11rem;
+            padding-top: 2rem;
+
+            .prehead {
+                font-family: 'Nunito';
+                font-style: normal;
+                background: linear-gradient(87.24deg, #2F78E7 7.03%, #6942F9 30.62%, #692EE9 49.76%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 33px;
+            }
+
+            .mainhead {
+                padding-top: 1.5rem;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 50px;
+                letter-spacing: -0.8px;
+
+                span {
+                    background: linear-gradient(92.32deg, #4527BC 10.09%, #6938F4 115.49%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                    font-weight: 700;
+                }
+            }
+
+            .checkpoints {
+                padding-top: 1.5rem;
+
+                .checkpoint {
+                    display: flex;
+                    margin-bottom: 1.5rem;
+
+                    h6 {
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        // color: rgba(0, 0, 0, 0.8);
+                        padding-left: 15px;
+                        padding-top: 2px;
+                        font-weight: 600;
+                        font-size: 17px;
+                        line-height: 28px;
+                    }
+                }
+            }
+
+            .tagline {
+                padding-top: 1rem;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+
+                letter-spacing: -0.5px;
+                background: linear-gradient(92.32deg, #4527BC 10.09%, #8B38F4 115.49%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+            }
+
+            .pre_reg_button {
+                color: white;
+                border: none;
+                cursor: pointer;
+                font-family: 'Open Sans';
+                font-style: normal;
+                margin-top: 1.5rem;
+                padding: 12px 32px;
+                font-weight: 600;
+                font-size: 16px;
+                background: linear-gradient(80.56deg, #5C9DFE 22.13%, #7C45F1 63.91%);
+                box-shadow: 0px 2px 30px rgba(93, 56, 244, 0.4);
+                border-radius: 8px;
+
+                &:hover {
+                    transition: 0.3s ease-in-out;
+                    box-shadow: 0px 2px 30px rgba(93, 56, 244, 0.6);
+                }
+            }
+
+            .discord_area {
+                margin-top: 3rem;
+                padding: 7px 10px;
+                display: flex;
+                background: linear-gradient(195.4deg, rgba(134, 190, 255, 0.2) 10.8%, rgba(205, 76, 250, 0.2) 163.89%);
+                border-radius: 40px;
+                cursor: pointer;
+                width: 95%;
+
+                .discord_text {
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+
+                    letter-spacing: -0.5px;
+                    background: linear-gradient(92.32deg, #4527BC 10.09%, #8B38F4 115.49%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                    padding-left: 10px;
+                    padding-top: 4px;
+
+                    span {
+                        font-weight: 800;
+                    }
+                }
+            }
+
+            .scrollarea {
+                display: flex;
+                margin-top: 10rem;
+                cursor: pointer;
+
+                .scroll_text {
+                    padding-top: 2px;
+                    padding-left: 10px;
+                }
+            }
+
+        }
 
         .right_area {
             width: 55%;
