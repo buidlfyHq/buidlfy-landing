@@ -49,6 +49,7 @@
 
             @media screen and (max-width: 767px) {
                 margin: 2rem 10px;
+                text-align: center;
             }
 
             .designed_tile {
@@ -58,6 +59,10 @@
                 width: 60px;
                 height: 60px;
                 padding: 15px;
+
+                @media screen and (max-width: 767px) {
+                    margin: auto;
+                }
             }
 
             .titlehead {
