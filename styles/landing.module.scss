@@ -4,13 +4,30 @@
     background-size: 100%;
     background-repeat: no-repeat;
 
+    @media screen and (max-width: 767px) {
+        background-size: auto;
+        height: 125vh;
+    }
+
+
     .inner_con {
-        padding-top: 2rem;
+        padding-top: 10rem;
         display: flex;
+
+        @media screen and (max-width: 767px) {
+            padding-top: 5rem;
+        }
 
         .left_area {
             padding-left: 11rem;
             padding-top: 2rem;
+
+            @media screen and (max-width: 767px) {
+                padding-left: 2rem;
+                padding-top: 2rem;
+                padding-right: 2rem;
+            }
+
 
             .prehead {
                 font-family: 'Nunito';
@@ -33,6 +50,10 @@
                 font-size: 36px;
                 line-height: 50px;
                 letter-spacing: -0.8px;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 30px;
+                }
 
                 span {
                     background: linear-gradient(92.32deg, #4527BC 10.09%, #6938F4 115.49%);
@@ -145,6 +166,10 @@
         .right_area {
             width: 55%;
             margin-left: auto;
+
+            @media screen and (max-width: 767px) {
+                display: none;
+            }
         }
     }
 }
@@ -162,6 +187,13 @@
     padding-top: 7rem;
     padding-bottom: 7rem;
 
+    @media screen and (max-width: 767px) {
+        height: 40vh;
+        background-size: 100% 100%;
+        margin-top: 40rem;
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
 
     .preheading {
         font-family: 'Roboto';
@@ -181,6 +213,10 @@
         font-size: 36px;
         line-height: 50px;
         letter-spacing: -0.8px;
+
+        @media screen and (max-width: 767px) {
+            font-size: 32px;
+        }
     }
 
     .pre_reg_button {
@@ -202,6 +238,10 @@
             box-shadow: 0px 10px 30px rgba(93, 56, 244, 0.3);
             transition: 0.2s ease-in-out;
 
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-top: 2rem;
         }
     }
 }

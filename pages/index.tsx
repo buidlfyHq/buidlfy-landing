@@ -1,5 +1,6 @@
 // imported modules
 import type { NextPage } from 'next'
+import React, { useEffect, useState } from "react";
 
 // imported styles and assets
 import styles from "../styles/landing.module.scss";
@@ -12,15 +13,32 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Nocodeui from '../components/Nocodeui';
 import Dragdrop from '../components/Dragdrop';
+import EarlyAccess from '../components/EarlyAccess';
+import Meta from '../components/Meta';
 
+// import hooks
+import useWindowDimensions from "../hooks/use-window-dimensions";
 
 
 const Home: NextPage = () => {
 
+  const { width } = useWindowDimensions();
+  const [boxWidth, setBoxWidth] = useState<number>(0);
+  useEffect(() => {
+    setBoxWidth(width!);
+  }, [width]);
   return (
     <>
+      <Meta
+        title="Buidlfy"
+        desc="Buidlfy"
+        keyword=""
+        icon="/favicon.ico"
+        metaImage=""
+        url=""
+      />{" "}
+      <NavBar />
       <section className={styles.preregister_bg}>
-        <NavBar />
         <div className={styles.inner_con}>
           <div className={styles.left_area}>
             <h4 className={styles.prehead}>Coming soon</h4>
@@ -44,7 +62,7 @@ const Home: NextPage = () => {
             </div>
             <button className={styles.pre_reg_button}>Pre Register</button>
             <div className={styles.discord_area}>
-              <Image src={DiscordIcon} width={30} height={30} alt="discord-icon" />
+              <Image src={DiscordIcon} width={boxWidth !== null && boxWidth < 767 ? 60 : 30} height={30} alt="discord-icon" />
               <div className={styles.discord_text}>Join our <span>Discord Channel</span> to learn more</div>
             </div>
             <div className={styles.scrollarea}>
@@ -59,14 +77,7 @@ const Home: NextPage = () => {
       </section>
       <Nocodeui />
       <Dragdrop />
-      <section className={styles.bottom_bg}>
-        <h4 className={styles.preheading}>Get Early Access and Lots of Benefits!</h4>
-        <h1 className={styles.mainhead}>Get whitelisted for the early access.</h1>
-        <button className={styles.pre_reg_button}>
-          Pre register
-        </button>
-      </section>
-
+      <EarlyAccess />
       <Footer />
     </>
   )

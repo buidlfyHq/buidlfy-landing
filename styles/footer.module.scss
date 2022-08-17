@@ -3,6 +3,10 @@
     height: 60vh;
     text-align: center;
 
+    @media screen and (max-width: 767px) {
+        height: 80vh;
+    }
+
     .footer_heading {
         color: white;
         font-family: 'Nunito';
@@ -11,6 +15,11 @@
         font-weight: 900;
         font-size: 26px;
         line-height: 33px;
+
+        @media screen and (max-width: 767px) {
+            text-align: left;
+            margin-left: 2.5rem;
+        }
     }
 
     .footer_text {
@@ -23,6 +32,10 @@
         width: 75%;
         font-family: 'Raleway';
         font-style: normal;
+
+        @media screen and (max-width: 767px) {
+            text-align: left;
+        }
     }
 
     .social_area {
@@ -30,6 +43,11 @@
         margin: auto;
         justify-content: center;
         margin-top: 3rem;
+
+        @media screen and (max-width: 767px) {
+            margin-left: 2.5rem;
+            justify-content: left;
+        }
 
         .social_circle {
             background: #CDC5FF;
