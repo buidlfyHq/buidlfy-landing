@@ -4,13 +4,30 @@
     background-size: 100%;
     background-repeat: no-repeat;
 
+    @media screen and (max-width: 767px) {
+        background-size: auto;
+        height: 125vh;
+    }
+
+
     .inner_con {
         padding-top: 10rem;
         display: flex;
 
+        @media screen and (max-width: 767px) {
+            padding-top: 5rem;
+        }
+
         .left_area {
             padding-left: 11rem;
             padding-top: 2rem;
+
+            @media screen and (max-width: 767px) {
+                padding-left: 2rem;
+                padding-top: 2rem;
+                padding-right: 2rem;
+            }
+
 
             .prehead {
                 font-family: 'Nunito';
@@ -33,6 +50,10 @@
                 font-size: 36px;
                 line-height: 50px;
                 letter-spacing: -0.8px;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 30px;
+                }
 
                 span {
                     background: linear-gradient(92.32deg, #4527BC 10.09%, #6938F4 115.49%);
@@ -131,7 +152,7 @@
 
             .scrollarea {
                 display: flex;
-                margin-top: 10rem;
+                margin-top: 8rem;
                 cursor: pointer;
 
                 .scroll_text {
@@ -145,6 +166,82 @@
         .right_area {
             width: 55%;
             margin-left: auto;
+
+            @media screen and (max-width: 767px) {
+                display: none;
+            }
+        }
+    }
+}
+
+
+.bottom_bg {
+    background-image: url("../public/blur-bg/bottom-bg.png");
+    background-color: #ffffff;
+    background-position: center;
+    height: 60vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    @media screen and (max-width: 767px) {
+        height: 40vh;
+        background-size: 100% 100%;
+        margin-top: 40rem;
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+
+    .preheading {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #5D38F4;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+
+    .mainhead {
+        padding-top: 1.5rem;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+        letter-spacing: -0.8px;
+
+        @media screen and (max-width: 767px) {
+            font-size: 32px;
+        }
+    }
+
+    .pre_reg_button {
+        background: #5D38F4;
+        box-shadow: 0px 18px 30px rgba(93, 56, 244, 0.1);
+        border-radius: 8px;
+        border: none;
+        padding: 10px 64px;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: 'Poppins';
+        font-style: normal;
+        cursor: pointer;
+        margin-top: 3rem;
+        // height: 45px;
+
+        &:hover {
+            box-shadow: 0px 10px 30px rgba(93, 56, 244, 0.3);
+            transition: 0.2s ease-in-out;
+
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-top: 2rem;
         }
     }
 }
