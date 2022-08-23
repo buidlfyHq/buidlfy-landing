@@ -14,6 +14,11 @@
         height: 110vh;
     }
 
+    /*--mac book pro , and mac-book retina display screen---*/
+    @media only screen and (min-width: 1920px) and (max-width: 2560px) {
+        height: 50vh;
+    }
+
     .preheading {
         // font-family: 'Nunito';
         // font-style: normal;

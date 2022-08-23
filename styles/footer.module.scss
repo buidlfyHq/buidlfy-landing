@@ -7,6 +7,11 @@
         height: 80vh;
     }
 
+    /*--mac book pro , and mac-book retina display screen---*/
+    @media only screen and (min-width: 1920px) and (max-width: 2560px) {
+        height: 35vh;
+    }
+
     .footer_heading {
         color: white;
         font-family: 'Nunito';
