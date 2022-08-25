@@ -16,9 +16,9 @@
     }
 
     /*working only in ipad portrait device*/
-    @media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+    @media only screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 820px) and (max-height: 1180px) and (orientation:portrait) {
         background-size: auto;
-        height: 120vh;
+        height: 90vh;
     }
 
     .inner_con {
@@ -181,6 +181,11 @@
             @media screen and (max-width: 767px) {
                 display: none;
             }
+
+            /*working only in ipad portrait device*/
+            @media only screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 820px) and (max-height: 1180px) and (orientation:portrait) {
+                display: none;
+            }
         }
     }
 }
@@ -199,16 +204,29 @@
     padding-bottom: 7rem;
 
     @media screen and (max-width: 767px) {
-        height: 40vh;
+        height: 45vh;
         background-size: 100% 100%;
-        margin-top: 40rem;
-        padding-top: 2rem;
-        padding-bottom: 0rem;
+        margin-top: 30rem;
+        padding: 5rem 1rem 0rem 1rem;
+    }
+
+    @media only screen and (max-width: 400px) and (max-height: 800px) and (orientation:portrait) {
+        height: 45vh;
+        background-size: 100% 100%;
+        margin-top: 35rem;
+        padding: 4rem 1rem 0rem 1rem;
     }
 
     /*--mac book pro , and mac-book retina display screen---*/
     @media only screen and (min-width: 1500px) and (max-width: 2560px) {
         height: 45vh;
+    }
+
+    @media only screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 820px) and (max-height: 1180px) and (orientation:portrait) {
+        margin-top: 5rem;
+        padding-top: 4rem;
+        height: 30vh;
+        background-size: 100% 100%;
     }
 
     .preheading {
