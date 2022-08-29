@@ -22,9 +22,13 @@
         margin: auto;
         margin-top: 1.5rem;
         color: #949A9D;
-        width: 75%;
+        width: 50%;
         font-family: 'Roboto';
         font-style: normal;
+
+        @media screen and (max-width: 767px) {
+            width: 75%;
+        }
 
     }
 

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 
 const dragDropData = [
-    { icon: 'grid.png', heading: (<>Thousand of<br />template</>) },
+    { icon: 'grid.png', heading: (<>Thousand of<br />templates</>) },
     { icon: 'click.png', heading: (<>Easy to use<br />software</>) },
     { icon: 'high-resolution.png', heading: (<>High<br />resolution</>) },
     { icon: 'stock-image.png', heading: (<>Thousand<br />stock Image</>) },

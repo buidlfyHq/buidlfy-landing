@@ -38,22 +38,22 @@ const Home: NextPage = () => {
         url=""
       />{" "}
       <NavBar />
-      <section className={`${styles.preregister_bg}  pt-20`}>
+      <section className={`${styles.preregister_bg} pt-24`}>
         <div className={styles.inner_con}>
           <div className={styles.left_area}>
-            <h4 className={styles.prehead}>Coming soon</h4>
+            <h4 className={styles.prehead}>Coming soon!</h4>
             <h1 className={styles.mainhead}>No Code UI Solution to<br /> build <span>Next Gen dApps</span></h1>
             <div className={styles.checkpoints}>
               <div className={styles.checkpoint}>
-                <Image src={Checkmark} alt="check" width={26} height={27} />
+                <Image src={Checkmark} alt="check" width={26} height={25} />
                 <h6>Decentralised</h6>
               </div>
               <div className={styles.checkpoint}>
-                <Image src={Checkmark} alt="check" width={26} height={27} />
+                <Image src={Checkmark} alt="check" width={26} height={25} />
                 <h6>Web3 UI Features</h6>
               </div>
               <div className={styles.checkpoint}>
-                <Image src={Checkmark} alt="check" width={26} height={27} />
+                <Image src={Checkmark} alt="check" width={26} height={25} />
                 <h6>Smart Contract Integration</h6>
               </div>
             </div>
