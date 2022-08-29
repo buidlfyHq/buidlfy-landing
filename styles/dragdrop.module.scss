@@ -2,22 +2,13 @@
     background-image: url("../public/blur-bg/blurbg-bottom.png");
     background-color: #ffffff;
     background-position: center;
-    height: 130vh;
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
 
 
     @media screen and (max-width: 767px) {
-        padding-top: 15rem;
         padding-left: 1rem;
         padding-right: 1rem;
-    }
-
-    /*--mac book pro , and mac-book retina display screen---*/
-    @media only screen and (min-width: 1500px) and (max-width: 2560px) {
-        height: 110vh;
     }
 
     .mainhead {
@@ -132,8 +123,6 @@
                     font-size: 18px;
                     width: 100%;
                 }
-
-
             }
         }
     }

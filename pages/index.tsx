@@ -38,22 +38,22 @@ const Home: NextPage = () => {
         url=""
       />{" "}
       <NavBar />
-      <section className={styles.preregister_bg}>
+      <section className={`${styles.preregister_bg}  pt-20`}>
         <div className={styles.inner_con}>
           <div className={styles.left_area}>
             <h4 className={styles.prehead}>Coming soon</h4>
             <h1 className={styles.mainhead}>No Code UI Solution to<br /> build <span>Next Gen dApps</span></h1>
             <div className={styles.checkpoints}>
               <div className={styles.checkpoint}>
-                <Image src={Checkmark} alt="check" width={27} height={28} />
+                <Image src={Checkmark} alt="check" width={26} height={27} />
                 <h6>Decentralised</h6>
               </div>
               <div className={styles.checkpoint}>
-                <Image src={Checkmark} alt="check" width={27} height={28} />
+                <Image src={Checkmark} alt="check" width={26} height={27} />
                 <h6>Web3 UI Features</h6>
               </div>
               <div className={styles.checkpoint}>
-                <Image src={Checkmark} alt="check" width={27} height={28} />
+                <Image src={Checkmark} alt="check" width={26} height={27} />
                 <h6>Smart Contract Integration</h6>
               </div>
             </div>
@@ -65,10 +65,10 @@ const Home: NextPage = () => {
               <Image src={DiscordIcon} width={boxWidth !== null && boxWidth < 767 ? 60 : 30} height={30} alt="discord-icon" />
               <div className={styles.discord_text}>Join our <span>Discord Channel</span> to learn more</div>
             </div>
-            <div className={styles.scrollarea}>
+            {/* <div className={styles.scrollarea}>
               <Image src={ScrollIcon} width={24} height={24} alt="scroll-icon" />
               <div className={styles.scroll_text}>Scroll to explore</div>
-            </div>
+            </div> */}
           </div>
           <div className={styles.right_area}>
             <Image src={SoftwareImage} alt="software" />
