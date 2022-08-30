@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             <div className={styles.tagline}>
               Pre-register yourself to get early access benefits!
             </div>
-            <button className={styles.pre_reg_button}>Pre Register</button>
+            <button className={styles.pre_reg_button}>Register</button>
             <div className={styles.discord_area}>
               <Image src={DiscordIcon} width={boxWidth !== null && boxWidth < 767 ? 60 : 30} height={30} alt="discord-icon" />
               <div className={styles.discord_text}>Join our <span>Discord Channel</span> to learn more</div>

@@ -13,7 +13,7 @@ function NavBar() {
         <div className={styles.navbar}>
             <div className={`${styles.inner_nav} px-5 py-8`}>
                 <a href="#home" className={styles.logo}>Buidlfy</a>
-                <button className={styles.pre_reg_button}>Pre Register</button>
+                <button className={styles.pre_reg_button}>Register</button>
             </div>
         </div>
     );
