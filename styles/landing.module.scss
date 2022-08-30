@@ -1,26 +1,38 @@
 .preregister_bg {
     background-image: url("../public/landing-bg.png");
-    height: 140vh;
+    height: 120vh;
     background-size: 100%;
     background-repeat: no-repeat;
 
     @media screen and (max-width: 767px) {
         background-size: auto;
-        height: 125vh;
+        height: 95vh;
     }
 
+    @media screen and (max-width: 750px) {
+        background-size: auto;
+        height: 100vh;
+    }
+
+    /*working only in ipad portrait device*/
+    @media only screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 820px) and (max-height: 1180px) and (orientation:portrait) {
+        background-size: auto;
+        height: 80vh;
+    }
 
     .inner_con {
-        padding-top: 10rem;
         display: flex;
 
-        @media screen and (max-width: 767px) {
-            padding-top: 5rem;
-        }
 
         .left_area {
             padding-left: 11rem;
             padding-top: 2rem;
+
+            /*working only in ipad portrait device*/
+            @media only screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 820px) and (max-height: 1180px) and (orientation:portrait) {
+                padding-left: 7.5rem;
+                padding-top: 7rem;
+            }
 
             @media screen and (max-width: 767px) {
                 padding-left: 2rem;
@@ -38,12 +50,12 @@
                 background-clip: text;
                 text-fill-color: transparent;
                 font-weight: 700;
-                font-size: 24px;
+                font-size: 20px;
                 line-height: 33px;
             }
 
             .mainhead {
-                padding-top: 1.5rem;
+                padding-top: 0.5rem;
                 font-family: 'Nunito';
                 font-style: normal;
                 font-weight: 400;
@@ -70,16 +82,15 @@
 
                 .checkpoint {
                     display: flex;
-                    margin-bottom: 1.5rem;
+                    margin-bottom: 1rem;
 
                     h6 {
                         font-family: 'Open Sans';
                         font-style: normal;
-                        // color: rgba(0, 0, 0, 0.8);
                         padding-left: 15px;
                         padding-top: 2px;
                         font-weight: 600;
-                        font-size: 17px;
+                        font-size: 15px;
                         line-height: 28px;
                     }
                 }
@@ -170,6 +181,11 @@
             @media screen and (max-width: 767px) {
                 display: none;
             }
+
+            /*working only in ipad portrait device*/
+            @media only screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 820px) and (max-height: 1180px) and (orientation:portrait) {
+                display: none;
+            }
         }
     }
 }
@@ -178,21 +194,23 @@
 .bottom_bg {
     background-image: url("../public/blur-bg/bottom-bg.png");
     background-color: #ffffff;
-    background-position: center;
-    height: 60vh;
     background-size: 100%;
     background-repeat: no-repeat;
-
     text-align: center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
 
     @media screen and (max-width: 767px) {
-        height: 40vh;
         background-size: 100% 100%;
-        margin-top: 40rem;
-        padding-top: 2rem;
-        padding-bottom: 0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    @media only screen and (max-width: 400px) and (max-height: 800px) and (orientation:portrait) {
+        background-size: 100% 100%;
+    }
+
+
+    @media only screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 820px) and (max-height: 1180px) and (orientation:portrait) {
+        background-size: 100% 100%;
     }
 
     .preheading {
@@ -228,11 +246,10 @@
         color: white;
         font-weight: 400;
         font-size: 15px;
-        font-family: 'Poppins';
+        font-family: 'Open Sans';
         font-style: normal;
         cursor: pointer;
         margin-top: 3rem;
-        // height: 45px;
 
         &:hover {
             box-shadow: 0px 10px 30px rgba(93, 56, 244, 0.3);

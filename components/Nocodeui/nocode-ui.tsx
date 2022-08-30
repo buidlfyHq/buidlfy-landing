@@ -10,7 +10,7 @@ const noCodeUIData = [
 
 function Nocodeui() {
     return (
-        <section className={styles.blur_bg}>
+        <section className={`${styles.blur_bg} py-28`}>
             <h5 className={styles.preheading}>WHAT WE HAVE</h5>
             <h1 className={styles.mainhead}>No Code UI Solution</h1>
             <div className={styles.nocode_area}>
