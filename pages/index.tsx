@@ -1,27 +1,22 @@
 // imported modules
-import type { NextPage } from 'next'
 import React, { useEffect, useState } from "react";
 
-// imported styles and assets
-import styles from "../styles/landing.module.scss";
-import SoftwareImage from '../public/software.png';
+import type { NextPage } from "next";
+import Image from "next/image";
+
+import Dragdrop from "../components/Dragdrop";
+import EarlyAccess from "../components/EarlyAccess";
+import Footer from "../components/Footer";
+import Meta from "../components/Meta";
+import NavBar from "../components/NavBar";
+import Nocodeui from "../components/Nocodeui";
+import useWindowDimensions from "../hooks/use-window-dimensions";
 import Checkmark from "../public/icons/checkmark.png";
 import DiscordIcon from "../public/icons/discord-icon.png";
-import ScrollIcon from "../public/icons/scroll-icon.png";
-import Image from "next/image";
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-import Nocodeui from '../components/Nocodeui';
-import Dragdrop from '../components/Dragdrop';
-import EarlyAccess from '../components/EarlyAccess';
-import Meta from '../components/Meta';
-
-// import hooks
-import useWindowDimensions from "../hooks/use-window-dimensions";
-
+import SoftwareImage from "../public/software.png";
+import styles from "../styles/landing.module.scss";
 
 const Home: NextPage = () => {
-
   const { width } = useWindowDimensions();
   const [boxWidth, setBoxWidth] = useState<number>(0);
   useEffect(() => {
@@ -30,19 +25,22 @@ const Home: NextPage = () => {
   return (
     <>
       <Meta
-        title="Buidlfy"
-        desc="Buidlfy"
-        keyword=""
+        title="Buidlfy - No-code dapp builder"
+        desc="Buidlfy is on the mission to provide a No-Code UI builder tool for Web3 Devs to build their landing page, apps, NFT showcase and many more without needing any Front End Knowledge."
+        keyword="nocode, dapp, web, app, domain, builder, low code, web3, template, websites, website"
         icon="/favicon.ico"
-        metaImage=""
-        url=""
+        metaImage="https://buidlfy.com/metaimage.png"
+        url="https://buidlfy.com"
       />{" "}
       <NavBar />
       <section className={`${styles.preregister_bg} pt-24`}>
         <div className={styles.inner_con}>
           <div className={styles.left_area}>
             <h4 className={styles.prehead}>Coming soon!</h4>
-            <h1 className={styles.mainhead}>No Code UI Solution to<br /> build <span>Next Gen dApps</span></h1>
+            <h1 className={styles.mainhead}>
+              <div className="whitespace-pre">No Code UI Solution to</div>
+              build <span>Next Gen dApps</span>
+            </h1>
             <div className={styles.checkpoints}>
               <div className={styles.checkpoint}>
                 <Image src={Checkmark} alt="check" width={26} height={25} />
@@ -62,8 +60,15 @@ const Home: NextPage = () => {
             </div>
             <button className={styles.pre_reg_button}>Register</button>
             <div className={styles.discord_area}>
-              <Image src={DiscordIcon} width={boxWidth !== null && boxWidth < 767 ? 60 : 30} height={30} alt="discord-icon" />
-              <div className={styles.discord_text}>Join our <span>Discord Channel</span> to learn more</div>
+              <Image
+                src={DiscordIcon}
+                width={boxWidth !== null && boxWidth < 767 ? 60 : 30}
+                height={30}
+                alt="discord-icon"
+              />
+              <div className={styles.discord_text}>
+                Join our <span>Discord Channel</span> to learn more
+              </div>
             </div>
             {/* <div className={styles.scrollarea}>
               <Image src={ScrollIcon} width={24} height={24} alt="scroll-icon" />
@@ -80,7 +85,7 @@ const Home: NextPage = () => {
       <EarlyAccess />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

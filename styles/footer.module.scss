@@ -1,68 +1,67 @@
 .footer_outer {
-    background: #27292D;
+  background: #27292d;
+  text-align: center;
+
+  .footer_heading {
+    color: white;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 33px;
+
+    @media only screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 820px) and (max-height: 1180px) and (orientation: portrait) {
+      padding-top: 3rem;
+    }
+  }
+
+  .footer_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    margin: auto;
+    margin-top: 1.5rem;
+    color: #949a9d;
+    width: 50%;
+    font-family: "Roboto";
+    font-style: normal;
+
+    @media screen and (max-width: 767px) {
+      width: 75%;
+    }
+  }
+
+  .social_area {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 3rem;
+
+    .social_circle {
+      background: #cdc5ff;
+      width: 35px;
+      height: 35px;
+      border-radius: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-top: 8px;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.2s ease-in-out;
+        box-shadow: 0px 0px 1rem #cdc5ff;
+      }
+    }
+  }
+
+  .copyright_text {
+    color: #949a9d;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: "Roboto";
+    font-style: normal;
     text-align: center;
-
-    .footer_heading {
-        color: white;
-        font-family: 'Nunito';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 26px;
-        line-height: 33px;
-
-        @media only screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 820px) and (max-height: 1180px) and (orientation:portrait) {
-            padding-top: 3rem;
-        }
-    }
-
-    .footer_text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 29px;
-        margin: auto;
-        margin-top: 1.5rem;
-        color: #949A9D;
-        width: 50%;
-        font-family: 'Roboto';
-        font-style: normal;
-
-        @media screen and (max-width: 767px) {
-            width: 75%;
-        }
-
-    }
-
-    .social_area {
-        display: flex;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-
-        .social_circle {
-            background: #CDC5FF;
-            width: 35px;
-            height: 35px;
-            border-radius: 25px;
-            margin-left: 10px;
-            margin-right: 10px;
-            padding-top: 8px;
-            cursor: pointer;
-
-            &:hover {
-                transition: 0.2s ease-in-out;
-                box-shadow: 0px 0px 1rem #CDC5FF;
-            }
-        }
-    }
-
-    .copyright_text {
-        color: #949A9D;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        font-family: 'Roboto';
-        font-style: normal;
-        text-align: center;
-        margin-top: 5rem;
-    }
+    margin-top: 5rem;
+  }
 }
