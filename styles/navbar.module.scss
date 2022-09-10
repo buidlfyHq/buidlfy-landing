@@ -1,0 +1,54 @@
+.navbar {
+  width: 100%;
+  position: absolute;
+
+  .inner_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      padding: 30px 18px;
+    }
+
+    .logo {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 33px;
+
+      @media screen and (max-width: 767px) {
+        padding: 8px 16px;
+      }
+    }
+
+    .pre_reg_button {
+      height: 42px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-family: "Open Sans";
+      font-style: normal;
+      padding: 0px 32px;
+      font-weight: 400;
+      font-size: 14px;
+      background: linear-gradient(87.02deg, #73abff 20.28%, #7238ee 80.24%);
+      box-shadow: 0px 18px 30px rgba(93, 56, 244, 0.1);
+      border-radius: 8px;
+
+      &:hover {
+        transition: 0.3s ease-in-out;
+        box-shadow: 0px 2px 30px rgba(93, 56, 244, 0.6);
+      }
+    }
+  }
+}

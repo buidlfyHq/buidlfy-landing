@@ -1,10 +1,10 @@
-import type { AppProps } from 'next/app'
 import { useEffect } from "react";
+
+import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
 
-import '../styles/globals.scss'
+import "../styles/globals.scss";
 import * as gtag from "../lib/gtag";
-
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -21,9 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   const AnyComponent = Component as any;
 
-  return (
-      <AnyComponent {...pageProps} />
-  );
+  return <AnyComponent {...pageProps} />;
 }
 
 export default MyApp;
