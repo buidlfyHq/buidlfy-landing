@@ -8,7 +8,12 @@ function EarlyAccess() {
         Get Early Access and Lots of Benefits!
       </h4>
       <h1 className={styles.mainhead}>Get whitelisted for the early access.</h1>
-      <button className={styles.pre_reg_button}>Register</button>
+      <button
+        className={styles.pre_reg_button}
+        onClick={() => window.open("https://bit.ly/buidlfywaitlist", "_blank")}
+      >
+        Register
+      </button>
     </section>
   );
 }

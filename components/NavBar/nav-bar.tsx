@@ -15,7 +15,14 @@ function NavBar() {
         <a href="#home" className={styles.logo}>
           Buidlfy
         </a>
-        <button className={styles.pre_reg_button}>Register</button>
+        <button
+          className={styles.pre_reg_button}
+          onClick={() =>
+            window.open("https://bit.ly/buidlfywaitlist", "_blank")
+          }
+        >
+          Join Waitlist
+        </button>
       </div>
     </div>
   );
