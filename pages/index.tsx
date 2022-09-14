@@ -58,8 +58,20 @@ const Home: NextPage = () => {
             <div className={styles.tagline}>
               Pre-register yourself to get early access benefits!
             </div>
-            <button className={styles.pre_reg_button}>Register</button>
-            <div className={styles.discord_area}>
+            <button
+              className={styles.pre_reg_button}
+              onClick={() =>
+                window.open("https://bit.ly/buidlfywaitlist", "_blank")
+              }
+            >
+              Join Waitlist
+            </button>
+            <div
+              className={styles.discord_area}
+              onClick={() =>
+                window.open("https://bit.ly/buidlfydiscord", "_blank")
+              }
+            >
               <Image
                 src={DiscordIcon}
                 width={boxWidth !== null && boxWidth < 767 ? 60 : 30}

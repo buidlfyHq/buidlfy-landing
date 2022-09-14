@@ -4,8 +4,8 @@ import Image from "next/image";
 import styles from "../../styles/footer.module.scss";
 
 const socialData = [
-  { icon: "discord-footer-icn.svg", link: "" },
-  { icon: "twitter-brands.svg", link: "" },
+  { icon: "discord-footer-icn.svg", link: "https://bit.ly/buidlfydiscord" },
+  { icon: "twitter-brands.svg", link: "https://bit.ly/buidlfytwitter" },
 ];
 
 function Footer() {
@@ -20,7 +20,11 @@ function Footer() {
       </p>
       <div className={styles.social_area}>
         {socialData.map((item, index) => (
-          <div className={styles.social_circle} key={index}>
+          <div
+            className={styles.social_circle}
+            key={index}
+            onClick={() => window.open(item.link, "_blank")}
+          >
             <Image
               src={require(`../../public/social-icons/${item.icon}`)}
               width={20}
