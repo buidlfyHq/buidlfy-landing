@@ -18,9 +18,6 @@ export default class MyDocument extends Document {
             gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
               page_path: window.location.pathname,
             });
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_2}', {
-              page_path: window.location.hostname + window.location.pathname,
-            });
           `,
             }}
           />
