@@ -14,20 +14,10 @@
     }
 
     .logo {
-      float: left;
-      display: block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-family: "Nunito";
-      font-style: normal;
-      font-weight: 900;
-      font-size: 26px;
-      line-height: 33px;
+      padding: 0.5rem;
 
       @media screen and (max-width: 767px) {
-        padding: 8px 16px;
+        padding: 0px 0.5rem;
       }
     }
 
