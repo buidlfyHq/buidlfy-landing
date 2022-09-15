@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useRouter } from "next/router";
 
+import LogoIcon from "../../public/logo.svg";
 import styles from "../../styles/navbar.module.scss";
 
 function NavBar() {
@@ -12,8 +12,8 @@ function NavBar() {
   return (
     <div className={styles.navbar}>
       <div className={`${styles.inner_nav} px-5 py-8`}>
-        <a href="#home" className={styles.logo}>
-          Buidlfy
+        <a href="https://buidlfy.com" className={styles.logo}>
+          <Image src={LogoIcon} alt="Logo" height={60} width={124} />
         </a>
         <button
           className={styles.pre_reg_button}
