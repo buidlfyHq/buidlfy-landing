@@ -14,7 +14,7 @@ function EarlyAccess() {
           window.open("https://bit.ly/buidlfyjoinwaitlist", "_blank")
         }
       >
-        Register
+        Join Waitlist
       </button>
     </section>
   );

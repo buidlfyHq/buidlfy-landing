@@ -56,7 +56,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className={styles.tagline}>
-              Pre-register yourself to get early access benefits!
+              Join waitlist to get early access benefits!
             </div>
             <button
               className={styles.pre_reg_button}
