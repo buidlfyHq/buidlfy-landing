@@ -61,7 +61,7 @@ const Home: NextPage = () => {
             <button
               className={styles.pre_reg_button}
               onClick={() =>
-                window.open("https://bit.ly/buidlfywaitlist", "_blank")
+                window.open("https://bit.ly/buidlfyjoinwaitlist", "_blank")
               }
             >
               Join Waitlist

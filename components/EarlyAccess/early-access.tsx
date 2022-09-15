@@ -10,7 +10,9 @@ function EarlyAccess() {
       <h1 className={styles.mainhead}>Get whitelisted for the early access.</h1>
       <button
         className={styles.pre_reg_button}
-        onClick={() => window.open("https://bit.ly/buidlfywaitlist", "_blank")}
+        onClick={() =>
+          window.open("https://bit.ly/buidlfyjoinwaitlist", "_blank")
+        }
       >
         Register
       </button>
