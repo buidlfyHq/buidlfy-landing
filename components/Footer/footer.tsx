@@ -1,6 +1,7 @@
 // imported styles and assets
 import Image from "next/image";
 
+import LogoIcon from "../../public/logo-dark.svg";
 import styles from "../../styles/footer.module.scss";
 
 const socialData = [
@@ -11,12 +12,14 @@ const socialData = [
 function Footer() {
   return (
     <footer className={`${styles.footer_outer} pt-10 pb-5`}>
-      <h2 className={styles.footer_heading}>Buidlfy</h2>
+      <a href="https://buidlfy.com" className={styles.logo}>
+        <Image src={LogoIcon} alt="Logo" height={80} width={160} />
+      </a>
       <p className={styles.footer_text}>
         Buidlfy is a simple design tool to design and manage your dApp with
         #nocode. You can publish, manage, and organize content at scale right in
-        Buidlyfy&apos;s no-code site builder. It&apos;s so simple and
-        convenient, that all you ever want to do is design & deploy!
+        Buidlfy&apos;s no-code site builder. It&apos;s so simple and convenient,
+        that all you ever want to do is design & deploy!
       </p>
       <div className={styles.social_area}>
         {socialData.map((item, index) => (
