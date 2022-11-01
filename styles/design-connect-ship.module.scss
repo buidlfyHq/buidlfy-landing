@@ -1,0 +1,74 @@
+.main_area {
+    margin: auto;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    width: fit-content;
+
+    .main_line {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.115em;
+        text-align: center;
+        color: #828FFF;
+        text-transform: uppercase;
+
+    }
+
+    .main_head {
+        margin-top: 1rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 88px;
+        text-align: center;
+        letter-spacing: -0.02em;
+
+        color: #FFFFFF;
+    }
+
+    .desc {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+
+        text-align: center;
+        letter-spacing: 0.3px;
+
+        color: rgba(217, 218, 255, 0.4);
+        width: 60%;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .left_ellipse {
+        background: rgba(97, 0, 255, 0.17);
+        border: 0.66978px solid #000000;
+        filter: blur(108.839px);
+        transform: rotate(-131.58deg);
+        // 
+        position: absolute;
+        width: 875.21px;
+        height: 669.02px;
+        left: 100px;
+        top: 300px;
+    }
+
+    .right_ellipse {
+        background: rgba(80, 77, 237, 0.1);
+        border: 0.66978px solid #000000;
+        filter: blur(108.839px);
+        transform: rotate(-131.58deg);
+        // 
+        position: absolute;
+        width: 875.21px;
+        height: 500.11px;
+        left: 600px;
+        top: 250px;
+    }
+}
