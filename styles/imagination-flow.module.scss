@@ -66,8 +66,6 @@
                 width: 30%;
                 position: relative;
                 left: -4rem;
-                // margin-left: 3rem;
-                // margin-right: 3rem;
 
                 span {
                     span {
@@ -101,6 +99,39 @@
                     color: rgba(255, 255, 255, 0.8);
                     margin-bottom: 1rem;
                 }
+
+                .button_area {
+                    display: flex;
+
+                    .try_button {
+                        background: linear-gradient(90deg, #435BAF 0%, #6841D7 100%);
+                        border-radius: 4px;
+                        display: flex;
+                        color: #FFFFFF;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 150%;
+                        /* identical to box height, or 30px */
+                        padding: 10px 25px;
+                        text-align: center;
+                        margin-top: 2rem;
+                        margin-right: 5px;
+
+                        svg {
+                            margin-top: 8px;
+                            margin-left: 10px;
+                        }
+                    }
+
+                    .learn_button {
+                        margin-left: 5px;
+                        padding: 10px 25px;
+                        margin-top: 2rem;
+                        color: white;
+                        background: linear-gradient(91.49deg, rgba(255, 255, 255, 0.1) -48.22%, rgba(255, 255, 255, 0.08) 62.18%, rgba(255, 255, 255, 0) 100%);
+                        border-radius: 4px;
+                    }
+                }
             }
         }
 
@@ -120,20 +151,191 @@
             .indi_feature {
                 margin-top: 1.5rem;
                 border-radius: 8px;
-                padding: 40px 30px;
+                padding: 35px 35px;
                 background: rgba(255, 255, 255, 0.05);
+
+
+                // .gradient_edit_area {
+                //     height: 10vh;
+                //     background: linear-gradient(122.68deg, rgba(153, 119, 253, 0.7) -19.3%, rgba(221, 50, 49, 0.7) 120.25%);
+                // }
+
+                span {
+                    margin-bottom: 0.75rem !important;
+                }
 
                 h3 {
                     color: #FFFFFF;
                     font-family: 'Inter';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 20px;
+                    font-size: 18px;
                     line-height: 27px;
                 }
 
                 p {
+                    margin-top: 0.75rem;
                     color: rgba(255, 255, 255, 0.6);
+                    font-size: 15px;
+                    letter-spacing: 0.5px;
+                }
+
+                .link_btn_pink {
+                    font-family: 'Inter';
+                    font-weight: bolder;
+                    font-size: 17px;
+                    line-height: 20px;
+                    /* identical to box height, or 111% */
+                    margin-top: 2rem;
+                    letter-spacing: 0.2px;
+
+                    color: #BA5BAC;
+                    display: flex;
+                    cursor: pointer;
+
+                    &:hover {
+                        svg {
+                            margin-top: -5px;
+                            margin-left: 15px;
+                            transition: 0.2s ease-in-out;
+                        }
+                    }
+
+                    svg {
+                        margin-left: 10px;
+                        margin-top: 1px;
+                    }
+
+                }
+
+                span {
+                    margin-top: 0.75rem !important;
+                }
+
+            }
+
+            .indi_feature_central {
+                text-align: center;
+                margin-top: 1.5rem;
+                border-radius: 8px;
+                padding: 35px 35px;
+                background: rgba(255, 255, 255, 0.05);
+
+                .gradient_blue_button {
+                    display: flex;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: bolder;
+                    font-size: 16px;
+                    line-height: 17px;
+                    /* identical to box height, or 106% */
+
+                    letter-spacing: 0.3px;
+
+                    background: linear-gradient(93.43deg, #5DA0EF 19.42%, #705BF0 75.6%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    cursor: pointer;
+
+                    &:hover {
+
+                        svg {
+                            margin-left: 10px;
+                            transition: 0.2s ease-in-out;
+                        }
+
+                    }
+
+                    svg {
+                        margin-top: 3px;
+                        margin-left: 4px;
+
+                        path {
+                            stroke: rgba(134, 115, 255, 1) !important;
+                        }
+                    }
+                }
+            }
+
+            .indi_feature_left {
+                margin-top: 1.5rem;
+                border-radius: 8px;
+                background: rgba(255, 255, 255, 0.05);
+
+                .inner_layer {
+                    padding: 35px 35px;
+
+                    span {
+                        margin-bottom: 0.75rem !important;
+                    }
+
+                    h3 {
+                        color: #FFFFFF;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+                    }
+
+                    p {
+                        margin-top: 0.75rem;
+                        color: rgba(255, 255, 255, 0.6);
+                        font-size: 15px;
+                        letter-spacing: 0.5px;
+                    }
+
+                    span {
+                        margin-top: 0.75rem !important;
+                    }
+                }
+
+                span {
+                    margin-bottom: 1rem !important;
+                }
+            }
+
+            .indi_feature_right {
+                margin-top: 1.5rem;
+                border-radius: 8px;
+                background: rgba(255, 255, 255, 0.05);
+
+                .inner_layer {
+                    padding: 35px 35px;
+
+                    span {
+                        width: inherit !important;
+                        margin-bottom: 0.75rem !important;
+                    }
+
+                    h3 {
+                        color: #FFFFFF;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+                    }
+
+                    p {
+                        margin-top: 0.75rem;
+                        color: rgba(255, 255, 255, 0.6);
+                        font-size: 15px;
+                        letter-spacing: 0.5px;
+                    }
+
+                    span {
+                        margin-top: 0.75rem !important;
+                    }
+                }
+
+                span {
+                    // border-radius: 12px 0px 0px 0px;
+                    width: 100% !important;
                 }
             }
         }

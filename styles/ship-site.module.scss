@@ -1,4 +1,5 @@
 .main_area {
+    background: rgba(255, 255, 255, 0.05);
     margin: auto;
     padding-top: 8rem;
     padding-bottom: 6rem;
@@ -11,7 +12,7 @@
         line-height: 150%;
         letter-spacing: 0.115em;
         text-align: center;
-        color: #F496E0;
+        color: #3EA8FF;
         text-transform: uppercase;
     }
 
@@ -39,26 +40,26 @@
         letter-spacing: 0.3px;
 
         color: rgba(255, 255, 255, 0.6);
-        width: 50%;
+        width: 45%;
         margin: auto;
         margin-top: 1rem;
         margin-bottom: 4rem;
     }
 
-    .pink_bg {
+    .blue_bg {
         margin: auto;
         width: 80%;
         height: 100vh;
-        background: linear-gradient(106.24deg, #FFA7A7 0.63%, #A30CB5 44.62%, #00173A 100%);
+        background: linear-gradient(94.77deg, #3AC4F5 2.68%, #0E0E8A 95.69%);
         border-radius: 8px;
         display: flex;
-        padding-top: 6rem;
+        padding-top: 5rem;
 
         .left_side {
             width: 30%;
-            margin-top: 5rem;
+            margin-top: 3rem;
             position: relative;
-            left: 3rem;
+            left: 4rem;
 
             span {
                 span {
@@ -75,7 +76,7 @@
                 font-size: 22px;
                 line-height: 27px;
                 color: #FFFFFF;
-                margin-top: 1rem;
+                // margin-top: 1rem;
                 margin-bottom: 1rem;
             }
 
@@ -116,7 +117,7 @@
         .right_side {
             width: 70%;
             position: relative;
-            left: 5rem;
+            left: 9rem;
         }
     }
 }

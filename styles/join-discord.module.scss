@@ -1,0 +1,61 @@
+.main_area {
+    background: rgba(255, 255, 255, 0.05);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    .gradient_box {
+        background: linear-gradient(279.56deg, rgba(84, 214, 255, 0.33) 2.63%, rgba(135, 134, 255, 0.58) 75.15%);
+        border-radius: 20px;
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    h1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        /* identical to box height, or 36px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+        margin-top: 1.5rem;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+        /* or 178% */
+
+        text-align: center;
+
+        color: rgba(255, 255, 255, 0.6);
+        width: 60%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .join_button {
+        background: rgba(5, 2, 13, 0.65);
+        border-radius: 12px;
+        color: white;
+        padding: 10px 50px;
+        margin-top: 2.5rem;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+
+        &:hover {
+            box-shadow: 0px 0px 0.7rem rgba(5, 2, 13, 0.65);
+            transition: 0.2s ease-in-out;
+        }
+    }
+}

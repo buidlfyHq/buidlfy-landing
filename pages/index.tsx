@@ -1,10 +1,13 @@
 import type { NextPage } from "next";
 
+import BuildNextGen from "../components/BuildNextGen";
 import ConnectContract from "../components/ConnectContract";
 import DesignConnectShip from "../components/DesignConnectShip";
 import ImaginationFlow from "../components/ImaginationFlow";
+import JoinDiscord from "../components/JoinDiscord";
 import Meta from "../components/Meta";
 import NavBar from "../components/NavBar";
+import ShipSite from "../components/ShipSite";
 
 const Home: NextPage = () => {
     return (
@@ -21,6 +24,9 @@ const Home: NextPage = () => {
             <DesignConnectShip />
             <ImaginationFlow />
             <ConnectContract />
+            <ShipSite />
+            <BuildNextGen />
+            <JoinDiscord />
         </>)
 };
 export default Home;
