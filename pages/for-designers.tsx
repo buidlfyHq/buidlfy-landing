@@ -1,10 +1,13 @@
 import type { NextPage } from "next";
 
+import BuidlfyMarketplace from "../components/BuidlfyMarketplace";
 import BuildNextGen from "../components/BuildNextGen";
 import Footer from "../components/Footer";
+import ImaginationHero from "../components/ImaginationHero";
 import JoinDiscord from "../components/JoinDiscord";
 import Meta from "../components/Meta";
 import NavBar from "../components/NavBar";
+import SeamlessInstant from "../components/SeamlessInstant";
 
 const Designers: NextPage = () => {
     return (
@@ -18,6 +21,9 @@ const Designers: NextPage = () => {
                 url="https://buidlfy.com"
             />{" "}
             <NavBar />
+            <ImaginationHero />
+            <BuidlfyMarketplace />
+            <SeamlessInstant />
             <BuildNextGen />
             <JoinDiscord />
             <Footer />

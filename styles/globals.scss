@@ -31,3 +31,11 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.grad_nav_tab {
+  background: linear-gradient(93.43deg, #5DA0EF 19.42%, #9D8DFF 75.6%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

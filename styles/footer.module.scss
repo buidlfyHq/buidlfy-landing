@@ -4,11 +4,13 @@
   // text-align: center;
   .main_area {
     display: flex;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
 
     .left_area {
       width: 50%;
+      padding-left: 7rem;
+      padding-right: 7rem;
 
       .logo {
         padding: 0.5rem;
@@ -18,25 +20,78 @@
         }
       }
 
+      .subscribe_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        /* identical to box height, or 231% */
+
+
+        /* Dark/White 60% */
+
+        color: rgba(255, 255, 255, 0.6);
+        margin-left: 0.5rem;
+      }
+
+      .text_containter {
+        margin-left: 0.5rem;
+        background: rgba(255, 255, 255, 0.06);
+        border-radius: 4px;
+        width: 30vw;
+        padding: 7px 7px 7px 20px;
+        display: flex;
+
+        margin-top: 1rem;
+
+        input {
+          background: none;
+          appearance: none;
+          outline: none;
+          color: rgba(255, 255, 255, 0.6);
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          width: 90%;
+        }
+
+        .subscribe_button {
+          background: linear-gradient(90deg, #435BAF 0%, #6841D7 100%);
+          border-radius: 4px;
+          color: white;
+          margin-left: auto;
+          padding: 12px 15px;
+
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 13px;
+        }
+      }
+
       .social_area {
         display: flex;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
+        margin-top: 1.5rem;
 
         .social_circle {
-          background: #cdc5ff;
+          background: rgba(255, 255, 255, 0.12);
           width: 35px;
           height: 35px;
           border-radius: 25px;
-          margin-left: 10px;
-          margin-right: 10px;
+          margin-left: 5px;
+          margin-right: 5px;
           padding-top: 8px;
+          padding-left: 9px;
           cursor: pointer;
 
           &:hover {
-            transition: 0.2s ease-in-out;
-            box-shadow: 0px 0px 1rem #cdc5ff;
+            transition: 0.4s ease-in-out;
+            box-shadow: 0px 0px 1.5rem #B4B3B6;
+
           }
         }
       }
@@ -53,22 +108,23 @@
         h1 {
           font-family: 'Inter';
           font-style: normal;
-          font-weight: 400;
+          font-weight: 300;
           font-size: 17px;
           line-height: 19px;
 
           /* Dark/Primary */
 
           color: #FFFFFF;
-          margin-bottom: 2rem;
+          margin-bottom: 2.5rem;
         }
 
         p {
           color: rgba(255, 255, 255, 0.6);
-          font-weight: 500;
+          font-weight: 300;
           font-size: 15px;
           line-height: 17px;
-          margin-bottom: 1rem;
+          margin-bottom: 1.5rem;
+          cursor: pointer;
         }
       }
     }
