@@ -1,16 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import Image from "next/image";
-import { useRouter } from "next/router";
+import Link from "next/link";
 
 import LogoIcon from "../../public/logo.svg";
 import styles from "../../styles/navbar.module.scss";
 
 function NavBar() {
-  const router = useRouter();
 
   return (
-    <div className={styles.navbar}>
+    <header className={styles.navbar}>
       <div className={`${styles.inner_nav} px-5 py-2`}>
         <a href="https://buidlfy.com" className={styles.logo}>
           <Image src={LogoIcon} alt="Logo" height={60} width={124} />
@@ -18,7 +17,7 @@ function NavBar() {
         <div className={styles.center_nav}>
           <a>About us</a>
           <a>Templates<span>New</span></a>
-          <a>For Designers</a>
+          <Link href="/for-designers">For Designers</Link>
           <a>For Developers</a>
         </div>
         <div className={styles.right_nav}>
@@ -33,7 +32,7 @@ function NavBar() {
           </button>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

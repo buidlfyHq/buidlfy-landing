@@ -1,7 +1,10 @@
 import Image from "next/image";
 
+import ChipsetBlack from "../../public/chipset-black.svg";
 import Chipset from '../../public/chipset.svg';
 import ConnectContracts from '../../public/connect-contract.svg';
+import Deploy from '../../public/Deploy.svg';
+import UploadBlack from "../../public/upload-black.svg";
 import styles from '../../styles/connect-contract.module.scss';
 import ArrowRight from "../Icons/arrow-right";
 
@@ -20,6 +23,25 @@ function ConnectContract() {
                 </div>
                 <div className={styles.right_side}>
                     <Image src={ConnectContracts} alt="ConnectContracts" />
+                </div>
+            </div>
+
+            <div className={styles.bottom_area}>
+                <div className={styles.deploy_box}>
+                    <div className={styles.left_area}>
+                        <Image src={UploadBlack} alt="UploadBlack" />
+                        <h1>Deploy your site easily</h1>
+                        <p>Deploy Your Full Stack App to the Decentralized cloud in just few seconds. </p>
+                    </div>
+                    <div className={styles.right_area}>
+                        <Image src={Deploy} alt="Deploy" />
+                    </div>
+                </div>
+                <div className={styles.decentralise_box}>
+                    <Image src={ChipsetBlack} alt="ChipsetBlack" />
+
+                    <h1>Decentralised Storage</h1>
+                    <p>Buildfy lets you easily publish your site and assets to leading Decentralised Storage Networks. It will work across multiple DSNs without the need to use multiple tokens.</p>
                 </div>
             </div>
         </div>

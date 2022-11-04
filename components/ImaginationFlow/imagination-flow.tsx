@@ -53,8 +53,17 @@ function ImaginationFlow() {
                             <ArrowTopRight />
                         </p>
                     </div>
-                    <div className={styles.indi_feature}>
-                        {/* <div className={styles.gradient_edit_area}></div> */}
+
+                    <div className={styles.gradient_edit_area}>
+                        <div className={styles.top_overlay}></div>
+                        <div className={styles.middle_text}>
+                            Our words have creative power. With our words, we can speak blessings over our future.
+                            <br /> <br />
+                            ~ Joel Osteen
+                        </div>
+                        <div className={styles.bottom_overlay}></div>
+                    </div>
+                    <div className={`${styles.indi_feature_boxed}`}>
                         <Image src={Texticon} alt="texticon" />
 
                         <h3>Beautiful Text Styles to choose from</h3>
@@ -95,7 +104,9 @@ function ImaginationFlow() {
                             <p>You can always choose the best template for your needs from the dozens of available styles. </p>
                             <p>You may easily personalise the style, content, and photos to meet your needs. </p>
                         </div>
-                        <Image src={Modernnft} alt="modernnft" width={300} height={220} />
+                        <div className={styles.image_box}>
+                            <Image src={Modernnft} alt="modernnft" width={300} height={220} />
+                        </div>
                     </div>
                 </div>
             </div>

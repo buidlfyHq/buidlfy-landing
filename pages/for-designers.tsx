@@ -1,16 +1,12 @@
 import type { NextPage } from "next";
 
 import BuildNextGen from "../components/BuildNextGen";
-import ConnectContract from "../components/ConnectContract";
-import DesignConnectShip from "../components/DesignConnectShip";
 import Footer from "../components/Footer";
-import ImaginationFlow from "../components/ImaginationFlow";
 import JoinDiscord from "../components/JoinDiscord";
 import Meta from "../components/Meta";
 import NavBar from "../components/NavBar";
-import ShipSite from "../components/ShipSite";
 
-const Home: NextPage = () => {
+const Designers: NextPage = () => {
     return (
         <>
             <Meta
@@ -22,13 +18,9 @@ const Home: NextPage = () => {
                 url="https://buidlfy.com"
             />{" "}
             <NavBar />
-            <DesignConnectShip />
-            <ImaginationFlow />
-            <ConnectContract />
-            <ShipSite />
             <BuildNextGen />
             <JoinDiscord />
             <Footer />
         </>)
 };
-export default Home;
+export default Designers;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
 .main_flow_area {
     background: rgba(255, 255, 255, 0.05);
 
@@ -148,17 +150,101 @@
             margin-left: 0.75rem;
             width: 33.33%;
 
-            .indi_feature {
+            .gradient_edit_area {
+                border-radius: 12px 12px 0px 0px;
                 margin-top: 1.5rem;
-                border-radius: 8px;
+                // height: 30vh;
+                background: linear-gradient(122.68deg, rgba(153, 119, 253, 0.7) -19.3%, rgba(221, 50, 49, 0.7) 120.25%);
+
+                .top_overlay {
+                    background: rgba(0, 0, 0, 0.3);
+                    box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.1);
+                    height: 31px;
+
+                }
+
+                .middle_text {
+                    font-family: 'Rye', cursive;
+                    color: white;
+                    font-weight: 400;
+                    font-size: 15px;
+                    padding: 1rem 2.5rem;
+                    text-align: center;
+                }
+
+                .bottom_overlay {
+                    height: 32px;
+                    // position: relative;
+                    background: rgba(0, 0, 0, 0.3);
+                    box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.1);
+                    border-radius: 0px;
+                }
+            }
+
+            .indi_feature_boxed {
+                border-radius: 0px 0px 12px 12px;
                 padding: 35px 35px;
                 background: rgba(255, 255, 255, 0.05);
 
+                span {
+                    margin-bottom: 0.75rem !important;
+                }
 
-                // .gradient_edit_area {
-                //     height: 10vh;
-                //     background: linear-gradient(122.68deg, rgba(153, 119, 253, 0.7) -19.3%, rgba(221, 50, 49, 0.7) 120.25%);
-                // }
+                h3 {
+                    color: #FFFFFF;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                }
+
+                p {
+                    margin-top: 0.75rem;
+                    color: rgba(255, 255, 255, 0.6);
+                    font-size: 15px;
+                    letter-spacing: 0.5px;
+                }
+
+                .link_btn_pink {
+                    font-family: 'Inter';
+                    font-weight: bolder;
+                    font-size: 17px;
+                    line-height: 20px;
+                    /* identical to box height, or 111% */
+                    margin-top: 2rem;
+                    letter-spacing: 0.2px;
+
+                    color: #BA5BAC;
+                    display: flex;
+                    cursor: pointer;
+
+                    &:hover {
+                        svg {
+                            margin-top: -5px;
+                            margin-left: 15px;
+                            transition: 0.2s ease-in-out;
+                        }
+                    }
+
+                    svg {
+                        margin-left: 10px;
+                        margin-top: 1px;
+                    }
+
+                }
+
+                span {
+                    margin-top: 0.75rem !important;
+                }
+
+            }
+
+            .indi_feature {
+                margin-top: 1.5rem;
+                border-radius: 12px;
+                padding: 35px 35px;
+                background: rgba(255, 255, 255, 0.05);
 
                 span {
                     margin-bottom: 0.75rem !important;
@@ -217,7 +303,7 @@
             .indi_feature_central {
                 text-align: center;
                 margin-top: 1.5rem;
-                border-radius: 8px;
+                border-radius: 12px;
                 padding: 35px 35px;
                 background: rgba(255, 255, 255, 0.05);
 
@@ -263,11 +349,11 @@
 
             .indi_feature_left {
                 margin-top: 1.5rem;
-                border-radius: 8px;
+                border-radius: 12px;
                 background: rgba(255, 255, 255, 0.05);
 
                 .inner_layer {
-                    padding: 35px 35px;
+                    padding: 50px 35px;
 
                     span {
                         margin-bottom: 0.75rem !important;
@@ -301,11 +387,11 @@
 
             .indi_feature_right {
                 margin-top: 1.5rem;
-                border-radius: 8px;
+                border-radius: 12px;
                 background: rgba(255, 255, 255, 0.05);
 
                 .inner_layer {
-                    padding: 35px 35px;
+                    padding: 40px 35px;
 
                     span {
                         width: inherit !important;
@@ -333,9 +419,13 @@
                     }
                 }
 
-                span {
-                    // border-radius: 12px 0px 0px 0px;
-                    width: 100% !important;
+                .image_box {
+                    text-align: right;
+
+                    span {
+                        // border-radius: 12px 0px 0px 0px;
+                        width: 100% !important;
+                    }
                 }
             }
         }

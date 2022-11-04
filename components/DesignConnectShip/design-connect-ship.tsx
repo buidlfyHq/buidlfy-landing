@@ -13,8 +13,6 @@ function DesignConnectShip() {
             <button className={styles.gradient_button}>Try Buidlfy now
                 <ArrowRight />
             </button>
-            {/* <div className={styles.left_ellipse}></div>
-            <div className={styles.right_ellipse}></div> */}
             <Image src={Mainapp} alt="Mainapp" />
         </div>
     )

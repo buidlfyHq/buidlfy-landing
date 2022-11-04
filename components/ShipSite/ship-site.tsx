@@ -5,7 +5,6 @@ import Tickmark from '../../public/Tickmark.svg';
 import styles from "../../styles/ship-site.module.scss";
 import ArrowRight from "../Icons/arrow-right";
 
-
 function ShipSite() {
     return (
         <div className={styles.main_area}>

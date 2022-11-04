@@ -119,4 +119,89 @@
             left: 5rem;
         }
     }
+
+    .bottom_area {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        margin-top: 2rem;
+
+        .deploy_box {
+            width: 60%;
+            background: rgba(217, 217, 217, 0.1);
+            border-radius: 12px;
+            margin-right: 1rem;
+            display: flex;
+
+            .left_area {
+                padding: 50px;
+
+                h1 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 27px;
+                    /* identical to box height, or 135% */
+
+
+                    color: #FFFFFF;
+                    padding-top: 2rem;
+                }
+
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    /* or 171% */
+
+                    letter-spacing: 0.3px;
+
+                    color: rgba(255, 255, 255, 0.8);
+                    padding-top: 1rem;
+                }
+            }
+
+            .right_area {
+                width: 60%
+            }
+        }
+
+        .decentralise_box {
+            width: 40%;
+            background: rgba(217, 217, 217, 0.1);
+            border-radius: 12px;
+            margin-left: 1rem;
+            padding: 50px;
+
+            h1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                /* identical to box height, or 135% */
+
+
+                color: #FFFFFF;
+                padding-top: 2rem;
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                /* or 171% */
+
+                letter-spacing: 0.3px;
+
+                color: rgba(255, 255, 255, 0.8);
+                padding-top: 1rem;
+            }
+        }
+    }
 }

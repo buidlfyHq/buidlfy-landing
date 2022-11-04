@@ -1,62 +1,88 @@
 .footer_outer {
-  background: #27292d;
-  text-align: center;
+  background: #05020D;
 
-  .logo {
-    padding: 0.5rem;
-
-    @media screen and (max-width: 767px) {
-      padding: 0px 0.5rem;
-    }
-  }
-
-  .footer_text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 29px;
-    margin: auto;
-    margin-top: 1.5rem;
-    color: #949a9d;
-    width: 50%;
-    font-family: "Roboto";
-    font-style: normal;
-
-    @media screen and (max-width: 767px) {
-      width: 75%;
-    }
-  }
-
-  .social_area {
+  // text-align: center;
+  .main_area {
     display: flex;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
-    .social_circle {
-      background: #cdc5ff;
-      width: 35px;
-      height: 35px;
-      border-radius: 25px;
-      margin-left: 10px;
-      margin-right: 10px;
-      padding-top: 8px;
-      cursor: pointer;
+    .left_area {
+      width: 50%;
 
-      &:hover {
-        transition: 0.2s ease-in-out;
-        box-shadow: 0px 0px 1rem #cdc5ff;
+      .logo {
+        padding: 0.5rem;
+
+        @media screen and (max-width: 767px) {
+          padding: 0px 0.5rem;
+        }
+      }
+
+      .social_area {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        margin-top: 3rem;
+
+        .social_circle {
+          background: #cdc5ff;
+          width: 35px;
+          height: 35px;
+          border-radius: 25px;
+          margin-left: 10px;
+          margin-right: 10px;
+          padding-top: 8px;
+          cursor: pointer;
+
+          &:hover {
+            transition: 0.2s ease-in-out;
+            box-shadow: 0px 0px 1rem #cdc5ff;
+          }
+        }
+      }
+    }
+
+    .right_area {
+      width: 50%;
+      display: flex;
+
+      .footer_list {
+        margin-left: 4rem;
+        margin-right: 4rem;
+
+        h1 {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 19px;
+
+          /* Dark/Primary */
+
+          color: #FFFFFF;
+          margin-bottom: 2rem;
+        }
+
+        p {
+          color: rgba(255, 255, 255, 0.6);
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 17px;
+          margin-bottom: 1rem;
+        }
       }
     }
   }
 
   .copyright_text {
-    color: #949a9d;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    font-family: "Roboto";
+    font-family: 'Inter';
     font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: auto;
     text-align: center;
-    margin-top: 5rem;
+    margin-bottom: 0.5rem;
   }
 }

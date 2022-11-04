@@ -1,7 +1,7 @@
 // imported styles and assets
 import Image from "next/image";
 
-import LogoIcon from "../../public/logo-dark.svg";
+import LogoIcon from "../../public/logo.svg";
 import styles from "../../styles/footer.module.scss";
 
 const socialData = [
@@ -12,16 +12,40 @@ const socialData = [
 function Footer() {
   return (
     <footer className={`${styles.footer_outer} pt-10 pb-5`}>
-      <a href="https://buidlfy.com" className={styles.logo}>
-        <Image src={LogoIcon} alt="Logo" height={80} width={160} />
-      </a>
-      <p className={styles.footer_text}>
-        Buidlfy is a simple design tool to design and manage your dApp with
-        #nocode. You can publish, manage, and organize content at scale right in
-        Buidlfy&apos;s no-code site builder. It&apos;s so simple and convenient,
-        that all you ever want to do is design & deploy!
-      </p>
-      <div className={styles.social_area}>
+
+      <div className={styles.main_area}>
+
+        <div className={styles.left_area}>
+
+          <a href="https://buidlfy.com" className={styles.logo}>
+            <Image src={LogoIcon} alt="Logo" height={60} width={120} />
+          </a>
+          <p>Subscribe to our newsletter to get updated!</p>
+          <input placeholder="Enter email" />
+          <button>Subscribe</button>
+        </div>
+        <div className={styles.right_area}>
+          <div className={styles.footer_list}>
+            <h1>Pages</h1>
+            <p>For Designers</p>
+            <p>For Developers</p>
+            <p>Marketplace</p>
+          </div>
+          <div className={styles.footer_list}>
+            <h1>Company</h1>
+            <p>Community</p>
+            <p>Careers</p>
+            <p>Newsletter</p>
+          </div>
+          <div className={styles.footer_list}>
+            <h1>Help</h1>
+            <p>FAQs</p>
+            <p>Docs</p>
+            <p>Learn</p>
+          </div>
+        </div>
+      </div>
+      {/* <div className={styles.social_area}>
         {socialData.map((item, index) => (
           <div
             className={styles.social_circle}
@@ -36,7 +60,7 @@ function Footer() {
             />
           </div>
         ))}
-      </div>
+      </div> */}
       <h6 className={styles.copyright_text}>
         © 2022 Buidlfy. All rights reserved.
       </h6>
