@@ -59,7 +59,9 @@
         }
 
         .subscribe_button {
-          background: linear-gradient(90deg, #435BAF 0%, #6841D7 100%);
+          // background: linear-gradient(90deg, #435BAF 0%, #6841D7 100%);
+          background: linear-gradient(90deg, #5DA0F0 0%, #5C44E8 100%);
+
           border-radius: 4px;
           color: white;
           margin-left: auto;
@@ -70,6 +72,13 @@
           font-weight: 500;
           font-size: 14px;
           line-height: 13px;
+
+          &:hover {
+            transition: 0.3s ease-in-out;
+            // box-shadow: 0px 4px 100px #5d75f0;
+            background: linear-gradient(90deg, #3582DE 0%, #A044E8 100%);
+
+          }
         }
       }
 
@@ -88,11 +97,24 @@
           padding-left: 9px;
           cursor: pointer;
 
-          &:hover {
-            transition: 0.4s ease-in-out;
-            box-shadow: 0px 0px 1.5rem #B4B3B6;
 
-          }
+          // convert to svg and fill them.
+          // &:hover {
+          //   span {
+          //     span {
+          //       img {
+          //         fill: #8379FF;
+          //       }
+          //     }
+          //   }
+
+          // svg {
+          // }
+
+          // transition: 0.4s ease-in-out;
+          // box-shadow: 0px 0px 1.5rem #B4B3B6;
+
+          // }
         }
       }
     }
@@ -119,12 +141,19 @@
         }
 
         p {
-          color: rgba(255, 255, 255, 0.6);
+          // color: rgba(255, 255, 255, 0.6);
+          color: rgba(229, 229, 255, 0.5);
+
           font-weight: 300;
           font-size: 15px;
           line-height: 17px;
           margin-bottom: 1.5rem;
           cursor: pointer;
+
+          &:hover {
+            color: rgba(229, 229, 255, 0.85);
+            transition: 0.2s ease-in-out;
+          }
         }
       }
     }

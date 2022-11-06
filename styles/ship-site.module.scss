@@ -95,7 +95,8 @@
             }
 
             .try_button {
-                background: linear-gradient(113.45deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 92.19%);
+                background: linear-gradient(105.02deg, rgba(255, 255, 255, 0.37) 7.45%, rgba(255, 255, 255, 0) 98.03%);
+
                 backdrop-filter: blur(25px);
                 display: flex;
                 color: #FFFFFF;
@@ -106,6 +107,11 @@
                 padding: 10px 40px;
                 text-align: center;
                 margin-top: 2rem;
+                border-radius: 4px;
+
+                &:hover {
+                    background: linear-gradient(105.02deg, rgba(255, 255, 255, 0.54) 7.45%, rgba(255, 255, 255, 0) 98.03%);
+                }
 
                 svg {
                     margin-top: 9px;
