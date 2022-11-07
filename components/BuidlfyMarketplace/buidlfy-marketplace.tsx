@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import GreyChipset from "../../public/GreyChipset.svg";
-import GreySpark from "../../public/GreySpark.svg";
+import GreyChipset from "../../public/grey-chipset.svg";
+import GreySpark from "../../public/grey-spark.svg";
 import BuidlfyMarketPlace from "../../public/marketplace-template.svg";
 import BuidlfyMarketPlace2 from "../../public/marketplace-template2.svg";
 import MarketPlaceWallet from "../../public/marketplace-wallet.svg";

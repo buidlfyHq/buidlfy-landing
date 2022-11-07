@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import Template from "../../public/Templates.svg";
-import Tickmark from "../../public/Tickmark.svg";
+import Template from "../../public/templates-new.svg";
+import Tickmark from "../../public/tick-mark.svg";
 import styles from "../../styles/ship-site.module.scss";
 import ArrowRight from "../Icons/arrow-right";
 

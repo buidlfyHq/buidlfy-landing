@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Mainapp from "../../public/MainApp.svg";
+import Mainapp from "../../public/main-app.svg";
 import styles from "../../styles/design-connect-ship.module.scss";
 import ArrowRight from "../Icons/arrow-right";
 

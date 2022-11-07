@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -7,6 +9,7 @@ const nextConfig = {
     path: "",
   },
   trailingSlash: true,
+  assetPrefix: isProd ? process.env.NEXT_PUBLIC_SITE_URL : "",
 };
 
 module.exports = nextConfig;
