@@ -10,8 +10,7 @@ import styles from "../../styles/navbar.module.scss";
 function NavBar() {
   const router = useRouter()
   let path = router.pathname;
-  console.log(path === '/for-designers')
-  console.log('/for-designers')
+
   return (
     <header className={styles.navbar}>
       <div className={`${styles.inner_nav} px-5 py-2`}>

@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+import BrushTool from '../../public/flow-tools/brush.svg';
+import CrossTool from '../../public/flow-tools/cross.svg';
+import UploadTool from '../../public/flow-tools/upload.svg';
 import Flow from '../../public/Flow.svg';
 import Click from "../../public/flowImages/click.svg";
 import DesignSystem from "../../public/flowImages/design-system.svg";
@@ -55,13 +58,19 @@ function ImaginationFlow() {
                     </div>
 
                     <div className={styles.gradient_edit_area}>
-                        <div className={styles.top_overlay}></div>
+                        <div className={styles.top_overlay}>
+                            <Image src={CrossTool} alt="CrossTool" />
+                            <Image src={UploadTool} alt="UploadTool" />
+                        </div>
                         <div className={styles.middle_text}>
                             Our words have creative power. With our words, we can speak blessings over our future.
                             <br /> <br />
                             ~ Joel Osteen
                         </div>
-                        <div className={styles.bottom_overlay}></div>
+                        <div className={styles.bottom_overlay}>
+                            <Image src={BrushTool} alt="BrushTool" />
+                            <p>31 words · 125 characters</p>
+                        </div>
                     </div>
                     <div className={`${styles.indi_feature_boxed}`}>
                         <Image src={Texticon} alt="texticon" />
