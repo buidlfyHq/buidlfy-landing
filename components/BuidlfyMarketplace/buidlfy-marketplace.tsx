@@ -2,9 +2,9 @@ import Image from "next/image";
 
 import GreyChipset from "../../public/GreyChipset.svg";
 import GreySpark from "../../public/GreySpark.svg";
-import BuidlfyMarketPlace from "../../public/MarketplaceTemplate.svg";
-import BuidlfyMarketPlace2 from "../../public/MarketplaceTemplate2.svg";
-import MarketPlaceWallet from "../../public/MarketPlaceWallet.svg";
+import BuidlfyMarketPlace from "../../public/marketplace-template.svg";
+import BuidlfyMarketPlace2 from "../../public/marketplace-template2.svg";
+import MarketPlaceWallet from "../../public/marketplace-wallet.svg";
 import styles from "../../styles/buidlfy-marketplace.module.scss";
 
 function BuidlfyMarketplace() {

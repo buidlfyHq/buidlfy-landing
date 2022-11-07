@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import SeamlessInstantImage from "../../public/SeamlessInstant.svg";
+import SeamlessInstantImage from "../../public/seamless-instant.svg";
 import styles from "../../styles/seamless-instant.module.scss";
 
 function SeamlessInstant() {
