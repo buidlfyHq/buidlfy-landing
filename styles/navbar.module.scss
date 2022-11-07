@@ -26,7 +26,7 @@
       margin-bottom: 0.5rem;
 
       a {
-        font-family: 'Inter';
+        font-family: "Inter";
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -42,8 +42,8 @@
 
         span {
           font-size: 11px;
-          color: #8A6CFF;
-          border: 1px solid #6841D7;
+          color: #8a6cff;
+          border: 1px solid #6841d7;
           border-radius: 12px;
           padding: 1px 4px;
           user-select: none;
@@ -58,8 +58,8 @@
 
     .right_nav {
       .learn_tag {
-        color: #5E6AD2;
-        font-family: 'Inter';
+        color: #5e6ad2;
+        font-family: "Inter";
         margin-right: 2rem;
         font-size: 14px;
         cursor: pointer;
@@ -75,14 +75,13 @@
         padding: 0px 28px;
         font-weight: 400;
         font-size: 14px;
-        background: linear-gradient(90deg, #435BAF 0%, #6841D7 100%);
+        background: linear-gradient(90deg, #435baf 0%, #6841d7 100%);
         border-radius: 4px;
 
         &:hover {
           transition: 0.3s ease-in-out;
           // box-shadow: 0px 2px 30px rgba(93, 56, 244, 0.6);
-          box-shadow: 0px 4px 100px #5D75F0;
-
+          box-shadow: 0px 4px 100px #5d75f0;
         }
       }
     }

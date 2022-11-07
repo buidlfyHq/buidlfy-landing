@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Inter");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=JetBrains+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=JetBrains+Mono&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -18,7 +18,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: #05020D;
+  background: #05020d;
 }
 
 a {
@@ -34,7 +34,7 @@ a {
 }
 
 .grad_nav_tab {
-  background: linear-gradient(93.43deg, #5DA0EF 19.42%, #9D8DFF 75.6%);
+  background: linear-gradient(93.43deg, #5da0ef 19.42%, #9d8dff 75.6%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -52,5 +52,5 @@ a {
   line-height: 60px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
 }

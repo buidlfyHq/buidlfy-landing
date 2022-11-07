@@ -8,7 +8,7 @@ import LogoIcon from "../../public/logo.svg";
 import styles from "../../styles/navbar.module.scss";
 
 function NavBar() {
-  const router = useRouter()
+  const router = useRouter();
   let path = router.pathname;
 
   return (
@@ -19,9 +19,13 @@ function NavBar() {
         </a>
         <div className={styles.center_nav}>
           <a>About us</a>
-          <a>Templates<span>New</span></a>
+          <a>
+            Templates<span>New</span>
+          </a>
           <Link href="/for-designers">
-            <a className={`${path === '/for-designers' ? 'grad_nav_tab' : ''}`} >For Designers</a>
+            <a className={`${path === "/for-designers" ? "grad_nav_tab" : ""}`}>
+              For Designers
+            </a>
           </Link>
           <a>For Developers</a>
         </div>

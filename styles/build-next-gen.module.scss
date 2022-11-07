@@ -1,70 +1,74 @@
 .main_area {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 
-    h1 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 40px;
-        /* identical to box height, or 111% */
+  h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
 
-        text-align: center;
+    text-align: center;
 
-        color: #FFFFFF;
+    color: #ffffff;
+  }
+
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    /* or 156% */
+    width: 30%;
+
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .gradient_button {
+    background: linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    color: white;
+    user-select: none;
+    padding: 10px 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    display: flex;
+
+    // margin-bottom: 5rem;
+    margin-top: 4rem;
+
+    box-shadow: 0px 4px 100px #5d75f0;
+
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background: linear-gradient(
+          0deg,
+          rgba(48, 24, 192, 0.32),
+          rgba(48, 24, 192, 0.32)
+        ),
+        linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
+      box-shadow: 0px 4px 100px #5d75f0;
     }
 
-    p {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 28px;
-        /* or 156% */
-        width: 30%;
-
-        margin: auto;
-        text-align: center;
-        margin-top: 1rem;
-        color: rgba(255, 255, 255, 0.6);
+    svg {
+      margin-top: 9px;
+      margin-left: 10px;
     }
-
-    .gradient_button {
-        background: linear-gradient(93.43deg, #5DA0EF 19.42%, #5B44E7 63.9%);
-        border-radius: 8px;
-        display: block;
-        margin: auto;
-        color: white;
-        user-select: none;
-        padding: 10px 40px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 28px;
-        /* identical to box height, or 140% */
-
-        letter-spacing: 0.2px;
-        text-transform: capitalize;
-        display: flex;
-
-        // margin-bottom: 5rem;
-        margin-top: 4rem;
-
-        box-shadow: 0px 4px 100px #5D75F0;
-
-        transition: 0.3s ease-in-out;
-
-        &:hover {
-            background: linear-gradient(0deg, rgba(48, 24, 192, 0.32), rgba(48, 24, 192, 0.32)), linear-gradient(93.43deg, #5DA0EF 19.42%, #5B44E7 63.9%);
-            box-shadow: 0px 4px 100px #5D75F0;
-        }
-
-        svg {
-            margin-top: 9px;
-            margin-left: 10px;
-
-        }
-    }
+  }
 }

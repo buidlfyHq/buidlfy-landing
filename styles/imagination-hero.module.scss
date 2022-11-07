@@ -1,80 +1,84 @@
 .main_area {
+  margin: auto;
+  padding-top: 14rem;
+  padding-bottom: 4rem;
+  width: fit-content;
+
+  .main_line {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.115em;
+    text-align: center;
+    color: #828fff;
+    text-transform: uppercase;
+  }
+
+  .main_head {
+    margin-top: 1rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: rgba(217, 218, 255, 0.5);
+    width: 60%;
     margin: auto;
-    padding-top: 14rem;
-    padding-bottom: 4rem;
-    width: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
 
-    .main_line {
-        font-family: 'Inter';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.115em;
-        text-align: center;
-        color: #828FFF;
-        text-transform: uppercase;
+  .gradient_button {
+    background: linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
+    box-shadow: 0px 4px 100px #5d75f0;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    color: white;
+    user-select: none;
+    padding: 10px 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    display: flex;
+
+    margin-bottom: 5rem;
+
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background: linear-gradient(
+          0deg,
+          rgba(48, 24, 192, 0.32),
+          rgba(48, 24, 192, 0.32)
+        ),
+        linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
+      box-shadow: 0px 4px 100px #5d75f0;
     }
 
-    .main_head {
-        margin-top: 1rem;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 88px;
-        text-align: center;
-        letter-spacing: -0.02em;
-        color: #FFFFFF;
+    svg {
+      margin-top: 9px;
+      margin-left: 10px;
     }
-
-    .desc {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 28px;
-        text-align: center;
-        letter-spacing: 0.3px;
-        color: rgba(217, 218, 255, 0.5);
-        width: 60%;
-        margin: auto;
-        margin-top: 1rem;
-        margin-bottom: 3rem;
-    }
-
-    .gradient_button {
-        background: linear-gradient(93.43deg, #5DA0EF 19.42%, #5B44E7 63.9%);
-        box-shadow: 0px 4px 100px #5D75F0;
-        border-radius: 8px;
-        display: block;
-        margin: auto;
-        color: white;
-        user-select: none;
-        padding: 10px 40px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 28px;
-        /* identical to box height, or 140% */
-
-        letter-spacing: 0.2px;
-        text-transform: capitalize;
-        display: flex;
-
-        margin-bottom: 5rem;
-
-        transition: 0.3s ease-in-out;
-
-        &:hover {
-            background: linear-gradient(0deg, rgba(48, 24, 192, 0.32), rgba(48, 24, 192, 0.32)), linear-gradient(93.43deg, #5DA0EF 19.42%, #5B44E7 63.9%);
-            box-shadow: 0px 4px 100px #5D75F0;
-        }
-
-        svg {
-            margin-top: 9px;
-            margin-left: 10px;
-
-        }
-    }
+  }
 }

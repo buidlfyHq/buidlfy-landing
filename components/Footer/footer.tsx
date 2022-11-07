@@ -8,21 +8,19 @@ const socialData = [
   { icon: "twitter.svg", link: "https://bit.ly/buidlfytwitter" },
   { icon: "discord.svg", link: "https://bit.ly/buidlfydiscord" },
   { icon: "instagram.svg", link: "https://bit.ly/buidlfytwitter" },
-
 ];
 
 function Footer() {
   return (
     <footer className={`${styles.footer_outer} pt-10 pb-5`}>
-
       <div className={styles.main_area}>
-
         <div className={styles.left_area}>
-
           <a href="https://buidlfy.com" className={styles.logo}>
             <Image src={LogoIcon} alt="Logo" height={60} width={120} />
           </a>
-          <p className={styles.subscribe_text}>Subscribe to our newsletter to get updated!</p>
+          <p className={styles.subscribe_text}>
+            Subscribe to our newsletter to get updated!
+          </p>
           <div className={styles.text_containter}>
             <input placeholder="Enter email" />
             <button className={styles.subscribe_button}>Subscribe</button>

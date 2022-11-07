@@ -1,5 +1,5 @@
 .footer_outer {
-  background: #05020D;
+  background: #05020d;
 
   // text-align: center;
   .main_area {
@@ -21,13 +21,12 @@
       }
 
       .subscribe_text {
-        font-family: 'Inter';
+        font-family: "Inter";
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
         line-height: 30px;
         /* identical to box height, or 231% */
-
 
         /* Dark/White 60% */
 
@@ -50,7 +49,7 @@
           appearance: none;
           outline: none;
           color: rgba(255, 255, 255, 0.6);
-          font-family: 'Inter';
+          font-family: "Inter";
           font-style: normal;
           font-weight: 400;
           font-size: 14px;
@@ -60,14 +59,14 @@
 
         .subscribe_button {
           // background: linear-gradient(90deg, #435BAF 0%, #6841D7 100%);
-          background: linear-gradient(90deg, #5DA0F0 0%, #5C44E8 100%);
+          background: linear-gradient(90deg, #5da0f0 0%, #5c44e8 100%);
 
           border-radius: 4px;
           color: white;
           margin-left: auto;
           padding: 12px 15px;
 
-          font-family: 'Inter';
+          font-family: "Inter";
           font-style: normal;
           font-weight: 500;
           font-size: 14px;
@@ -76,8 +75,7 @@
           &:hover {
             transition: 0.3s ease-in-out;
             // box-shadow: 0px 4px 100px #5d75f0;
-            background: linear-gradient(90deg, #3582DE 0%, #A044E8 100%);
-
+            background: linear-gradient(90deg, #3582de 0%, #a044e8 100%);
           }
         }
       }
@@ -96,7 +94,6 @@
           padding-top: 8px;
           padding-left: 9px;
           cursor: pointer;
-
 
           // convert to svg and fill them.
           // &:hover {
@@ -128,7 +125,7 @@
         margin-right: 4rem;
 
         h1 {
-          font-family: 'Inter';
+          font-family: "Inter";
           font-style: normal;
           font-weight: 300;
           font-size: 17px;
@@ -136,7 +133,7 @@
 
           /* Dark/Primary */
 
-          color: #FFFFFF;
+          color: #ffffff;
           margin-bottom: 2.5rem;
         }
 
@@ -160,7 +157,7 @@
   }
 
   .copyright_text {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
