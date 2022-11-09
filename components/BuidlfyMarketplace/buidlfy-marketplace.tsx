@@ -20,7 +20,12 @@ function BuidlfyMarketplace() {
         <Image src={BuidlfyMarketPlace} alt="BuidlfyMarketPlace" />
       </div>
       <div className={styles.bottom_area}>
-        <div className={styles.deploy_box}>
+        <div
+          className={styles.deploy_box}
+          data-aos="fade-up"
+          data-aos-once="true"
+          data-aos-delay="300"
+        >
           <div className={styles.inner_layer}>
             <Image src={GreySpark} alt="GreySpark" />
             <h1>Connect your wallet easily</h1>
@@ -33,7 +38,12 @@ function BuidlfyMarketplace() {
             <Image src={MarketPlaceWallet} alt="MarketPlaceWallet" />
           </div>
         </div>
-        <div className={styles.decentralise_box}>
+        <div
+          className={styles.decentralise_box}
+          data-aos="fade-up"
+          data-aos-once="true"
+          data-aos-delay="300"
+        >
           <div className={styles.inner_layer}>
             <Image src={GreyChipset} alt="GreyChipset" />
 

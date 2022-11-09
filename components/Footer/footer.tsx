@@ -18,13 +18,13 @@ function Footer() {
           <a href="https://buidlfy.com" className={styles.logo}>
             <Image src={LogoIcon} alt="Logo" height={60} width={120} />
           </a>
-          <p className={styles.subscribe_text}>
+          {/* <p className={styles.subscribe_text}>
             Subscribe to our newsletter to get updated!
           </p>
           <div className={styles.text_containter}>
             <input placeholder="Enter email" />
             <button className={styles.subscribe_button}>Subscribe</button>
-          </div>
+          </div> */}
           <div className={styles.social_area}>
             {socialData.map((item, index) => (
               <div

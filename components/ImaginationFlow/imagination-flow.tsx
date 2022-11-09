@@ -20,7 +20,12 @@ import ArrowTopRight from "../Icons/arrow-top-right";
 
 function ImaginationFlow() {
   return (
-    <div className={styles.main_flow_area}>
+    <div
+      className={styles.main_flow_area}
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-delay="300"
+    >
       <div className={styles.inner_flow_area}>
         <h5 className={styles.main_line}>01. Design</h5>
         <h1 className={styles.main_head}>Let your imagination flow</h1>

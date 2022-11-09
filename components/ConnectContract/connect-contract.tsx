@@ -10,7 +10,12 @@ import ArrowRight from "../Icons/arrow-right";
 
 function ConnectContract() {
   return (
-    <div className={styles.main_area}>
+    <div
+      className={styles.main_area}
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-delay="300"
+    >
       <h5 className={styles.main_line}>02. Connect</h5>
       <h1 className={styles.main_head}>Connect Contract</h1>
       <h5 className={styles.desc}>

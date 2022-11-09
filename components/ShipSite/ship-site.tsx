@@ -7,7 +7,12 @@ import ArrowRight from "../Icons/arrow-right";
 
 function ShipSite() {
   return (
-    <div className={styles.main_area}>
+    <div
+      className={styles.main_area}
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-delay="300"
+    >
       <h5 className={styles.main_line}>03. Ship</h5>
       <h1 className={styles.main_head}>Ship site to your users</h1>
       <h5 className={styles.desc}>
