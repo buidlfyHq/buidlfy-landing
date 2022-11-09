@@ -10,7 +10,10 @@ import styles from "../../styles/introduce-to-clients.module.scss";
 
 function IntroduceToClients() {
   return (
-    <div className={styles.main_area}>
+    <div className={styles.main_area}
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-delay="300">
       <div className={styles.inner_layer}>
         <div className={styles.left_area}>
           <Image src={Avatar1} alt="Avatar1" width={80} height={80} />

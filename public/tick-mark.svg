@@ -1,6 +1,6 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="64" height="64" rx="16" fill="white" fill-opacity="0.2"/>
-<rect width="64" height="64" rx="16" fill="url(#paint0_linear_98_123)" fill-opacity="0.8"/>
+<rect width="64" height="64" rx="16" fill="#8255C5" fill-opacity="0.8"/>
 <path d="M36.5 27.5C36.5 27.5 31.73 32.58 30.5 36.5L27.5 33.5M44.5 32C44.5 35.3152 43.183 38.4946 40.8388 40.8388C38.4946 43.183 35.3152 44.5 32 44.5C28.6848 44.5 25.5054 43.183 23.1612 40.8388C20.817 38.4946 19.5 35.3152 19.5 32C19.5 28.6848 20.817 25.5054 23.1612 23.1612C25.5054 20.817 28.6848 19.5 32 19.5C35.3152 19.5 38.4946 20.817 40.8388 23.1612C43.183 25.5054 44.5 28.6848 44.5 32V32Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
 <linearGradient id="paint0_linear_98_123" x1="19.5" y1="-11.5" x2="32" y2="64" gradientUnits="userSpaceOnUse">

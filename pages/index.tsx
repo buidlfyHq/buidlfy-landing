@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 
+import BuildApps from "../components/BuildApps";
 import BuildNextGen from "../components/BuildNextGen";
 import ConnectContract from "../components/ConnectContract";
 import DesignConnectShip from "../components/DesignConnectShip";
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
         <NavBar />
         <DesignConnectShip />
         <ImaginationFlow />
+        <BuildApps />
         <ConnectContract />
         <ShipSite />
         <BuildNextGen />

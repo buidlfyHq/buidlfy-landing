@@ -10,7 +10,11 @@ import ArrowRight from "../Icons/arrow-right";
 
 function ConnectContract() {
   return (
-    <div className={styles.main_area}>
+    <div className={styles.main_area}
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-delay="300"
+    >
       <h5 className={styles.main_line}>02. Connect</h5>
       <h1 className={styles.main_head}>Connect Contract</h1>
       <h5 className={styles.desc}>
@@ -36,7 +40,7 @@ function ConnectContract() {
         </div>
       </div>
 
-      <div className={styles.bottom_area}>
+      {/* <div className={styles.bottom_area}>
         <div className={styles.deploy_box}>
           <div className={styles.left_area}>
             <Image src={UploadBlack} alt="UploadBlack" />
@@ -60,7 +64,7 @@ function ConnectContract() {
             without the need to use multiple tokens.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
