@@ -10,6 +10,7 @@ import styles from "../../styles/navbar.module.scss";
 function NavBar() {
   const router = useRouter();
   let path = router.pathname;
+  console.log(path);
 
   return (
     <header className={styles.navbar}>
@@ -40,9 +41,15 @@ function NavBar() {
           >
             Join Community
           </a>
-          <Link href="/for-designers">
-            <a className={styles.learn_tag}>For Designers</a>
-          </Link>
+          {path === "/for-designers" ? (
+            <Link href="/">
+              <a className={styles.learn_tag}>For Developers</a>
+            </Link>
+          ) : (
+            <Link href="/for-designers">
+              <a className={styles.learn_tag}>For Designers</a>
+            </Link>
+          )}
           <button
             className={`${styles.pre_reg_button} mt-4`}
             onClick={() => window.open("https://app.buidlfy.com", "_blank")}
