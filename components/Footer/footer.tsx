@@ -1,13 +1,14 @@
 // imported styles and assets
 import Image from "next/image";
+import Link from "next/link";
 
 import LogoIcon from "../../public/logo.svg";
 import styles from "../../styles/footer.module.scss";
 
 const socialData = [
   { icon: "twitter.svg", link: "https://bit.ly/buidlfytwitter" },
-  { icon: "discord.svg", link: "https://bit.ly/buidlfydiscord" },
-  { icon: "instagram.svg", link: "https://bit.ly/buidlfytwitter" },
+  { icon: "discord.svg", link: "https://bit.ly/buidlfy-discord" },
+  // { icon: "instagram.svg", link: "https://bit.ly/buidlfytwitter" },
 ];
 
 function Footer() {
@@ -44,22 +45,31 @@ function Footer() {
         </div>
         <div className={styles.right_area}>
           <div className={styles.footer_list}>
-            <h1>Pages</h1>
-            <p>For Designers</p>
-            <p>For Developers</p>
-            <p>Marketplace</p>
+            <h1>Feature</h1>
+            <Link href="/">
+              <p>For Developers</p>
+            </Link>
+            <Link href="/for-designers">
+              <p>For Designers</p>
+            </Link>
           </div>
-          <div className={styles.footer_list}>
+          {/* <div className={styles.footer_list}>
             <h1>Company</h1>
             <p>Community</p>
             <p>Careers</p>
             <p>Newsletter</p>
-          </div>
+          </div> */}
           <div className={styles.footer_list}>
             <h1>Help</h1>
-            <p>FAQs</p>
-            <p>Docs</p>
-            <p>Learn</p>
+            <p
+              onClick={() =>
+                window.open("https://bit.ly/buidlfy-discord", "_blank")
+              }
+            >
+              Join our community
+            </p>
+            {/* <p>Docs</p>
+            <p>Learn</p> */}
           </div>
         </div>
       </div>

@@ -14,7 +14,10 @@ function BuildNextGen() {
         Buidlfy is incredible to build your next generation app - no code - no
         boundaries.
       </p>
-      <button className={styles.gradient_button}>
+      <button
+        className={styles.gradient_button}
+        onClick={() => window.open("https://app.buidlfy.com", "_blank")}
+      >
         Try Buidlfy now
         <ArrowRight />
       </button>

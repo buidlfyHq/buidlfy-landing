@@ -18,7 +18,14 @@ function JoinDiscord() {
           We have a dedicated Discord channel to better help & support our
           users. Join us in our Discord channel to keep up with the newest news.
         </p>
-        <button className={styles.join_button}>Join Discord</button>
+        <button
+          className={styles.join_button}
+          onClick={() =>
+            window.open("https://bit.ly/buidlfy-discord", "_blank")
+          }
+        >
+          Join Discord
+        </button>
       </div>
     </div>
   );

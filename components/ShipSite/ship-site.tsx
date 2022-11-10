@@ -16,23 +16,26 @@ function ShipSite() {
       <h5 className={styles.main_line}>03. Ship</h5>
       <h1 className={styles.main_head}>Ship site to your users</h1>
       <h5 className={styles.desc}>
-        Own & Sell your designs and reach millions of buyers or promote other
-        artists on the Buidlfy’s marketplace.
+        Ship your site to your users with a single click and scale your dApp
+        infinitely powered by Spheron Network.
       </h5>
       <div className={styles.blue_bg}>
         <div className={styles.left_side}>
           <Image src={Tickmark} alt="Tickmark" />
-          <h2>Ship sites to your users</h2>
+          <h2>Ship sites and Scale</h2>
           <p>
-            Own & Sell your designs and reach millions of buyers or promote
-            other artists on the Buidlfy’s marketplace.{" "}
+            Build you dapp using the no-code tool and ship it to your users with
+            a single click.
           </p>
           <p>
-            What your team needs to get done, we offer an fabulously rich
-            builder to do it swiftly, and at ease with your whole organization
-            in harmony.
+            Buidlfy and Spheron works together to deliver the best performance
+            for your end users, while using cutting-edge serverless technology
+            to help you build your next dapp with ease.
           </p>
-          <button className={styles.try_button}>
+          <button
+            className={styles.try_button}
+            onClick={() => window.open("https://app.buidlfy.com", "_blank")}
+          >
             Try for Free <ArrowRight />
           </button>
         </div>

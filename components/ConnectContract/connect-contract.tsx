@@ -32,7 +32,10 @@ function ConnectContract() {
             Metamask wallet to your dApp project and read data from your smart
             contract using easy Web3 API.
           </p>
-          <button className={styles.try_button}>
+          <button
+            className={styles.try_button}
+            onClick={() => window.open("https://app.buidlfy.com", "_blank")}
+          >
             Try for Free <ArrowRight />
           </button>
         </div>
@@ -61,8 +64,9 @@ function ConnectContract() {
           <h1>Decentralised Storage</h1>
           <p>
             Buildfy lets you easily publish your site and assets to leading
-            Decentralised Storage Networks. It will work across multiple DSNs
-            without the need to use multiple tokens.
+            Decentralised Storage Networks like Filecoin. Take advantage of the
+            censorship resistant nature of the blockchain and publish your site
+            to the world.
           </p>
         </div>
       </div>

@@ -39,7 +39,7 @@ function ImaginationFlow() {
           </div>
           <div className={styles.right_side}>
             <Image src={Leaf} alt="leaf" />
-            <h2>Let’s build the future of the web</h2>
+            <h2>Let&apos;s build the future of the web</h2>
             <p>
               With Buidlfy, you can create amazing web3 sites easily and
               effortlessly.
@@ -48,12 +48,24 @@ function ImaginationFlow() {
               Putting magic in the hands of our users by providing them with
               simple drag-and-drop tools.
             </p>
-            <p>Let’s build your first web3 app in no time. Try Buidlfy now:</p>
+            <p>
+              Let&apos;s build your first web3 app in no time. Try Buidlfy now:
+            </p>
             <div className={styles.button_area}>
-              <button className={styles.try_button}>
+              <button
+                className={styles.try_button}
+                onClick={() => window.open("https://app.buidlfy.com", "_blank")}
+              >
                 Try for Free <ArrowRight />
               </button>
-              <button className={styles.learn_button}>Learn More </button>
+              <button
+                className={styles.learn_button}
+                onClick={() =>
+                  window.open("https://bit.ly/buidlfy-discord", "_blank")
+                }
+              >
+                Join Community
+              </button>
             </div>
           </div>
         </div>
@@ -68,7 +80,10 @@ function ImaginationFlow() {
               and effectively. You can add any design element just by clicking
               on it.
             </p>
-            <p className={styles.link_btn_pink}>
+            <p
+              className={styles.link_btn_pink}
+              onClick={() => window.open("https://app.buidlfy.com", "_blank")}
+            >
               Try Buidlfy Now
               <ArrowTopRight />
             </p>
@@ -118,15 +133,17 @@ function ImaginationFlow() {
               <h3>Best Design System</h3>
               <p>
                 Create web pages quickly with your pre-made UI design elements
-                such as buttons, inputs, forms, modals, notifications, tooltips,
-                and so on...
+                such as buttons, inputs, headings, text, images, and so on...
               </p>
             </div>
             <Image src={DesignSystem} alt="designsystem" />
           </div>
           <div className={styles.indi_feature_central}>
             <Image src={GradientLeaf} alt="GradientLeaf" />
-            <p className={styles.gradient_blue_button}>
+            <p
+              className={styles.gradient_blue_button}
+              onClick={() => window.open("https://app.buidlfy.com", "_blank")}
+            >
               Build For Free <ArrowRight />
             </p>
           </div>
@@ -143,7 +160,7 @@ function ImaginationFlow() {
               <Image src={Devices} alt="devices" />
               <h3>Ready to use templates</h3>
               <p>
-                You can always choose the best template for your needs from the
+                You can always choose the best template for your needs from the
                 dozens of available styles.{" "}
               </p>
               <p>

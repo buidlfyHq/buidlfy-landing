@@ -13,7 +13,10 @@ function DesignConnectShip() {
         Buidlfy is a blazingly fast, totally extendable launcher. It lets you
         complete tasks, calculate, share common links, and much more.
       </h5>
-      <button className={styles.gradient_button}>
+      <button
+        className={styles.gradient_button}
+        onClick={() => window.open("https://app.buidlfy.com", "_blank")}
+      >
         Try Buidlfy now
         <ArrowRight />
       </button>

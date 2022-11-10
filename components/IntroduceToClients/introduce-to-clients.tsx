@@ -26,11 +26,24 @@ function IntroduceToClients() {
           <h1>A better way to introduce yourself to new clients</h1>
           <p>
             Reach millions of designers with your designs right now. Publish
-            your design it will reach millions of designers, all from one place.
+            your design to build your brand and get discovered by millions of
+            new clients.
           </p>
           <div className={styles.button_area}>
-            <button className={styles.discover_button}>Discover</button>
-            <button className={styles.learn_more}>Learn More</button>
+            <button
+              className={styles.discover_button}
+              onClick={() => window.open("https://app.buidlfy.com", "_blank")}
+            >
+              Discover
+            </button>
+            <button
+              className={styles.learn_more}
+              onClick={() =>
+                window.open("https://bit.ly/buidlfy-discord", "_blank")
+              }
+            >
+              Join Community
+            </button>
           </div>
         </div>
         <div className={styles.right_area}>
