@@ -1,0 +1,221 @@
+.main_area {
+  margin: auto;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  width: fit-content;
+
+  .main_line {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.115em;
+    text-align: center;
+    color: #f496e0;
+    text-transform: uppercase;
+  }
+
+  .main_head {
+    margin-top: 1rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+
+  .desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: rgba(255, 255, 255, 0.6);
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .pink_bg {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 4rem;
+    background: linear-gradient(106.24deg, #5322b7 0.63%, #8e40a9 100%);
+
+    // background: linear-gradient(106.24deg, #FFA7A7 0.63%, #A30CB5 44.62%, #00173A 100%);
+    border-radius: 8px;
+    display: flex;
+    padding-top: 6rem;
+
+    .left_side {
+      width: 30%;
+      margin-top: 5rem;
+      position: relative;
+      left: 3rem;
+
+      span {
+        span {
+          img {
+            margin-top: 2rem !important;
+          }
+        }
+      }
+
+      h2 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        color: #ffffff;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        /* or 171% */
+
+        letter-spacing: 0.3px;
+
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 1rem;
+      }
+
+      .try_button {
+        // background: linear-gradient(113.45deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 92.19%);
+        background: linear-gradient(
+          105.02deg,
+          rgba(255, 255, 255, 0.37) 7.45%,
+          rgba(255, 255, 255, 0) 98.03%
+        );
+        border-radius: 4px;
+        backdrop-filter: blur(25px);
+        display: flex;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+        padding: 10px 40px;
+        text-align: center;
+        margin-top: 2rem;
+
+        &:hover {
+          background: linear-gradient(
+            105.02deg,
+            rgba(255, 255, 255, 0.54) 7.45%,
+            rgba(255, 255, 255, 0) 98.03%
+          );
+        }
+
+        svg {
+          margin-top: 9px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .right_side {
+      width: 70%;
+      position: relative;
+      left: 5rem;
+    }
+  }
+
+  .bottom_area {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+
+    .deploy_box {
+      width: 60%;
+      background: rgba(217, 217, 217, 0.1);
+      border-radius: 12px;
+      margin-right: 1rem;
+      display: flex;
+
+      .left_area {
+        padding: 50px;
+
+        h1 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 27px;
+          /* identical to box height, or 135% */
+
+          color: #ffffff;
+          padding-top: 2rem;
+        }
+
+        p {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          /* or 171% */
+
+          letter-spacing: 0.3px;
+
+          color: rgba(255, 255, 255, 0.8);
+          padding-top: 1rem;
+        }
+      }
+
+      .right_area {
+        width: 65%;
+      }
+    }
+
+    .decentralise_box {
+      width: 40%;
+      background: rgba(217, 217, 217, 0.1);
+      border-radius: 12px;
+      margin-left: 1rem;
+      padding: 50px;
+
+      h1 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        /* identical to box height, or 135% */
+
+        color: #ffffff;
+        padding-top: 2rem;
+      }
+
+      p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        letter-spacing: 0.3px;
+
+        color: rgba(255, 255, 255, 0.8);
+        padding-top: 1rem;
+      }
+    }
+  }
+}

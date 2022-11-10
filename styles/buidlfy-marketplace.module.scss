@@ -1,0 +1,156 @@
+.main_area {
+  margin: auto;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+
+  .main_line {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.115em;
+    text-align: center;
+    color: #828fff;
+    text-transform: uppercase;
+  }
+
+  .main_head {
+    margin-top: 1rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+
+  .desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: rgba(217, 218, 255, 0.6);
+    width: 45%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .blue_bg {
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    background: linear-gradient(107.17deg, #82bbff 0%, #4a25bc 100%);
+    border-radius: 8px;
+    display: flex;
+
+    span {
+      margin: auto !important;
+    }
+  }
+
+  .bottom_area {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+
+    .deploy_box {
+      width: 40%;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      margin-right: 1rem;
+      // display: flex;
+
+      .inner_layer {
+        padding: 50px;
+
+        h1 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 27px;
+          /* identical to box height, or 135% */
+
+          color: #ffffff;
+          padding-top: 2rem;
+        }
+
+        p {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          /* or 171% */
+
+          letter-spacing: 0.3px;
+
+          color: rgba(255, 255, 255, 0.8);
+          padding-top: 1rem;
+          width: 90%;
+        }
+      }
+
+      .img_box {
+        text-align: center;
+        position: relative;
+        top: 1rem;
+      }
+    }
+
+    .decentralise_box {
+      width: 60%;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      margin-left: 1rem;
+
+      .inner_layer {
+        padding: 50px;
+
+        h1 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 27px;
+          /* identical to box height, or 135% */
+
+          color: #ffffff;
+          padding-top: 2rem;
+        }
+
+        p {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          /* or 171% */
+
+          letter-spacing: 0.3px;
+
+          color: rgba(255, 255, 255, 0.8);
+          padding-top: 1rem;
+        }
+      }
+
+      .img_box {
+        position: relative;
+        left: 4rem;
+        width: 90%;
+      }
+    }
+  }
+}
