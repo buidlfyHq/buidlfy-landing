@@ -1,62 +1,157 @@
 .footer_outer {
-  background: #27292d;
-  text-align: center;
+  background: #05020d;
 
-  .logo {
-    padding: 0.5rem;
-
-    @media screen and (max-width: 767px) {
-      padding: 0px 0.5rem;
-    }
-  }
-
-  .footer_text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 29px;
-    margin: auto;
-    margin-top: 1.5rem;
-    color: #949a9d;
-    width: 50%;
-    font-family: "Roboto";
-    font-style: normal;
-
-    @media screen and (max-width: 767px) {
-      width: 75%;
-    }
-  }
-
-  .social_area {
+  // text-align: center;
+  .main_area {
     display: flex;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
 
-    .social_circle {
-      background: #cdc5ff;
-      width: 35px;
-      height: 35px;
-      border-radius: 25px;
-      margin-left: 10px;
-      margin-right: 10px;
-      padding-top: 8px;
-      cursor: pointer;
+    .left_area {
+      width: 50%;
+      padding-left: 7rem;
+      padding-right: 7rem;
 
-      &:hover {
-        transition: 0.2s ease-in-out;
-        box-shadow: 0px 0px 1rem #cdc5ff;
+      .logo {
+        padding: 0.5rem;
+
+        @media screen and (max-width: 767px) {
+          padding: 0px 0.5rem;
+        }
+      }
+
+      .subscribe_text {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        /* identical to box height, or 231% */
+
+        /* Dark/White 60% */
+
+        color: rgba(255, 255, 255, 0.6);
+        margin-left: 0.5rem;
+      }
+
+      .text_containter {
+        margin-left: 0.5rem;
+        background: rgba(255, 255, 255, 0.06);
+        border-radius: 4px;
+        width: 30vw;
+        padding: 7px 7px 7px 20px;
+        display: flex;
+
+        margin-top: 1rem;
+
+        input {
+          background: none;
+          appearance: none;
+          outline: none;
+          color: rgba(255, 255, 255, 0.6);
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          width: 90%;
+        }
+
+        .subscribe_button {
+          // background: linear-gradient(90deg, #435BAF 0%, #6841D7 100%);
+          background: linear-gradient(90deg, #5da0f0 0%, #5c44e8 100%);
+
+          border-radius: 4px;
+          color: white;
+          margin-left: auto;
+          padding: 12px 15px;
+
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 13px;
+
+          &:hover {
+            transition: 0.3s ease-in-out;
+            // box-shadow: 0px 4px 100px #5d75f0;
+            background: linear-gradient(90deg, #3582de 0%, #a044e8 100%);
+          }
+        }
+      }
+
+      .social_area {
+        display: flex;
+        margin-top: 0.5rem;
+
+        .social_circle {
+          background: rgba(255, 255, 255, 0.12);
+          width: 35px;
+          height: 35px;
+          border-radius: 25px;
+          margin-left: 5px;
+          margin-right: 5px;
+          padding-top: 8px;
+          padding-left: 9px;
+          cursor: pointer;
+
+          // convert to svg and fill them.
+          &:hover {
+            background: rgba(255, 255, 255, 0.2);
+          }
+        }
+      }
+    }
+
+    .right_area {
+      width: 50%;
+      display: flex;
+
+      .footer_list {
+        margin-left: 4rem;
+        margin-right: 4rem;
+
+        h1 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 17px;
+          line-height: 19px;
+
+          /* Dark/Primary */
+
+          color: #ffffff;
+          margin-bottom: 2.5rem;
+        }
+
+        p {
+          // color: rgba(255, 255, 255, 0.6);
+          color: rgba(229, 229, 255, 0.5);
+
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 17px;
+          margin-bottom: 1.5rem;
+          cursor: pointer;
+
+          &:hover {
+            color: rgba(229, 229, 255, 0.85);
+            transition: 0.2s ease-in-out;
+          }
+        }
       }
     }
   }
 
   .copyright_text {
-    color: #949a9d;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    font-family: "Roboto";
+    font-family: "Inter";
     font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: auto;
     text-align: center;
-    margin-top: 5rem;
+    margin-bottom: 0.5rem;
   }
 }

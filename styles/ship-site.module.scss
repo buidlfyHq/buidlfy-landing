@@ -1,0 +1,137 @@
+.main_area {
+  background: rgba(255, 255, 255, 0.05);
+  margin: auto;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  width: fit-content;
+
+  .main_line {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.115em;
+    text-align: center;
+    color: #3ea8ff;
+    text-transform: uppercase;
+  }
+
+  .main_head {
+    margin-top: 1rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+
+  .desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: rgba(255, 255, 255, 0.6);
+    width: 45%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .blue_bg {
+    margin: auto;
+    width: 80%;
+    background: linear-gradient(94.77deg, #3ac4f5 2.68%, #0e0e8a 95.69%);
+    border-radius: 8px;
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+
+    .left_side {
+      width: 30%;
+      margin-top: 2rem;
+      position: relative;
+      left: 4rem;
+
+      span {
+        span {
+          img {
+            margin-top: 2rem !important;
+          }
+        }
+      }
+
+      h2 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        color: #ffffff;
+        // margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        /* or 171% */
+
+        letter-spacing: 0.3px;
+
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 2rem;
+      }
+
+      .try_button {
+        background: linear-gradient(
+          105.02deg,
+          rgba(255, 255, 255, 0.37) 7.45%,
+          rgba(255, 255, 255, 0) 98.03%
+        );
+
+        backdrop-filter: blur(25px);
+        display: flex;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+        padding: 10px 40px;
+        text-align: center;
+        margin-top: 2rem;
+        border-radius: 4px;
+
+        &:hover {
+          background: linear-gradient(
+            105.02deg,
+            rgba(255, 255, 255, 0.54) 7.45%,
+            rgba(255, 255, 255, 0) 98.03%
+          );
+        }
+
+        svg {
+          margin-top: 9px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .right_side {
+      width: 70%;
+      position: relative;
+      left: 6rem;
+    }
+  }
+}
