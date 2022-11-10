@@ -63,7 +63,7 @@ function ConnectContract() {
 
           <h1>Decentralised Storage</h1>
           <p>
-            Buildfy lets you easily publish your site and assets to leading
+            Buidlfy lets you easily publish your site and assets to leading
             Decentralised Storage Networks like Filecoin. Take advantage of the
             censorship resistant nature of the blockchain and publish your site
             to the world.

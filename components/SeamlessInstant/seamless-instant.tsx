@@ -15,7 +15,7 @@ function SeamlessInstant() {
       <h1 className={styles.main_head}>Designed to be seamless and instant.</h1>
       <h5 className={styles.desc}>
         Start from scratch or select over 100 stunning templates to create a
-        stunning wesite and create a stunning website in sectonds.
+        stunning wesite in seconds.
       </h5>
       <div className={styles.pink_bg}>
         <Image src={SeamlessInstantImage} alt="SeamlessInstant" />

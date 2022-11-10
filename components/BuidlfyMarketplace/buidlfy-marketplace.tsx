@@ -10,7 +10,7 @@ import styles from "../../styles/buidlfy-marketplace.module.scss";
 function BuidlfyMarketplace() {
   return (
     <div className={styles.main_area}>
-      <h5 className={styles.main_line}>Buildfy Marketplace</h5>
+      <h5 className={styles.main_line}>Buidlfy Marketplace</h5>
       <h1 className={styles.main_head}>Earn with Buidlfy&apos;s Marketplace</h1>
       <h5 className={styles.desc}>
         Own and sell your creations on Polygon and earn a passive income. Build
@@ -50,7 +50,7 @@ function BuidlfyMarketplace() {
 
             <h1>List Template on Marketplace</h1>
             <p>
-              Buildfy lets creators easily create website into NFT and sell them
+              Buidlfy lets creators easily create website into NFT and sell them
               on Buidlfy Marketplace to earn passive income.
             </p>
           </div>
