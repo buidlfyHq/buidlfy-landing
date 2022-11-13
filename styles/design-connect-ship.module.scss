@@ -4,6 +4,13 @@
   padding-bottom: 6rem;
   width: fit-content;
 
+  @media screen and (max-width: 767px) {
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+
   .main_line {
     font-family: "Inter";
     font-weight: 500;
@@ -31,6 +38,11 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media screen and (max-width: 767px) {
+      font-size: 46px;
+      line-height: 66px;
+    }
   }
 
   @keyframes flow {
@@ -60,33 +72,14 @@
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 3rem;
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      font-size: 16px;
+      margin-bottom: 2rem;
+      line-height: 24px;
+    }
   }
-
-  // .left_ellipse {
-  //     background: rgba(97, 0, 255, 0.17);
-  //     border: 0.66978px solid #000000;
-  //     filter: blur(108.839px);
-  //     transform: rotate(-131.58deg);
-  //     //
-  //     position: absolute;
-  //     width: 875.21px;
-  //     height: 669.02px;
-  //     left: 100px;
-  //     top: 300px;
-  // }
-
-  // .right_ellipse {
-  //     background: rgba(80, 77, 237, 0.1);
-  //     border: 0.66978px solid #000000;
-  //     filter: blur(108.839px);
-  //     transform: rotate(-131.58deg);
-  //     //
-  //     position: absolute;
-  //     width: 875.21px;
-  //     height: 500.11px;
-  //     left: 600px;
-  //     top: 250px;
-  // }
 
   .gradient_button {
     background: linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
@@ -114,11 +107,9 @@
     transition: 0.3s ease-in-out;
 
     &:hover {
-      background: linear-gradient(
-          0deg,
+      background: linear-gradient(0deg,
           rgba(48, 24, 192, 0.32),
-          rgba(48, 24, 192, 0.32)
-        ),
+          rgba(48, 24, 192, 0.32)),
         linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
       box-shadow: 0px 4px 100px #5d75f0;
     }
@@ -126,6 +117,10 @@
     svg {
       margin-top: 9px;
       margin-left: 10px;
+    }
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 3rem;
     }
   }
 }

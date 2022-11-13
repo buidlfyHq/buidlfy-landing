@@ -62,6 +62,10 @@
       position: relative;
       left: 3rem;
 
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+
       span {
         span {
           img {
@@ -97,11 +101,9 @@
 
       .try_button {
         // background: linear-gradient(113.45deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 92.19%);
-        background: linear-gradient(
-          105.02deg,
-          rgba(255, 255, 255, 0.37) 7.45%,
-          rgba(255, 255, 255, 0) 98.03%
-        );
+        background: linear-gradient(105.02deg,
+            rgba(255, 255, 255, 0.37) 7.45%,
+            rgba(255, 255, 255, 0) 98.03%);
         border-radius: 4px;
         backdrop-filter: blur(25px);
         display: flex;
@@ -115,11 +117,9 @@
         margin-top: 2rem;
 
         &:hover {
-          background: linear-gradient(
-            105.02deg,
-            rgba(255, 255, 255, 0.54) 7.45%,
-            rgba(255, 255, 255, 0) 98.03%
-          );
+          background: linear-gradient(105.02deg,
+              rgba(255, 255, 255, 0.54) 7.45%,
+              rgba(255, 255, 255, 0) 98.03%);
         }
 
         svg {
@@ -181,6 +181,8 @@
 
       .right_area {
         width: 65%;
+
+
       }
     }
 
