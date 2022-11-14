@@ -5,6 +5,11 @@
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
 
+  @media screen and (max-width: 767px) {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+  }
+
   .main_line {
     font-family: "Inter";
     font-weight: 500;
@@ -27,6 +32,12 @@
     letter-spacing: -0.02em;
 
     color: #ffffff;
+
+    @media screen and (max-width: 767px) {
+      font-weight: 300;
+      font-size: 35px;
+      line-height: 1.5;
+    }
   }
 
   .desc {
@@ -44,15 +55,27 @@
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 4rem;
+
+    @media screen and (max-width: 767px) {
+      width: 80%;
+      font-size: 16px;
+    }
+
   }
 
   .blue_bg {
     margin: auto;
     width: 80%;
-    height: 100vh;
+    // height: 100vh;
+    padding: 4rem 0;
     background: linear-gradient(107.17deg, #82bbff 0%, #4a25bc 100%);
     border-radius: 8px;
     display: flex;
+
+    @media screen and (max-width: 767px) {
+      height: fit-content;
+      padding: 1rem;
+    }
 
     span {
       margin: auto !important;
@@ -65,15 +88,29 @@
     display: flex;
     margin-top: 2rem;
 
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+
     .deploy_box {
       width: 40%;
       background: rgba(255, 255, 255, 0.1);
       border-radius: 12px;
       margin-right: 1rem;
+
       // display: flex;
+      @media screen and (max-width: 767px) {
+        width: 100%;
+      }
+
 
       .inner_layer {
         padding: 50px;
+
+        @media screen and (max-width: 767px) {
+          padding: 40px;
+        }
+
 
         h1 {
           font-family: "Inter";
@@ -107,6 +144,10 @@
         text-align: center;
         position: relative;
         top: 1rem;
+
+        @media screen and (max-width: 767px) {
+          top: 0;
+        }
       }
     }
 
@@ -116,8 +157,18 @@
       border-radius: 12px;
       margin-left: 1rem;
 
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2rem;
+      }
+
       .inner_layer {
         padding: 50px;
+
+        @media screen and (max-width: 767px) {
+          padding: 40px;
+        }
 
         h1 {
           font-family: "Inter";
@@ -150,6 +201,11 @@
         position: relative;
         left: 4rem;
         width: 90%;
+
+        @media screen and (max-width: 767px) {
+          left: 0;
+          width: 100%;
+        }
       }
     }
   }

@@ -4,17 +4,22 @@
   padding-bottom: 7rem;
 
   .gradient_box {
-    background: linear-gradient(
-      279.56deg,
-      rgba(84, 214, 255, 0.33) 2.63%,
-      rgba(135, 134, 255, 0.58) 75.15%
-    );
+    background: linear-gradient(279.56deg,
+        rgba(84, 214, 255, 0.33) 2.63%,
+        rgba(135, 134, 255, 0.58) 75.15%);
     border-radius: 20px;
     width: 75%;
     margin: auto;
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 4rem;
+
+    @media screen and (max-width: 767px) {
+      width: 80%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
   }
 
   h1 {
@@ -29,6 +34,12 @@
 
     color: #ffffff;
     margin-top: 1.5rem;
+
+    @media screen and (max-width: 767px) {
+
+      font-weight: 300;
+      font-size: 28px;
+    }
   }
 
   p {
@@ -45,6 +56,11 @@
     width: 60%;
     margin: auto;
     margin-top: 2rem;
+
+    @media screen and (max-width: 767px) {
+      width: 90%;
+      margin-top: 1rem;
+    }
   }
 
   .join_button {

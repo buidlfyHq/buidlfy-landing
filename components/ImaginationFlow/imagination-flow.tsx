@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Image from "next/image";
 
 import BrushTool from "../../public/flow-tools/brush.svg";
@@ -19,6 +21,8 @@ import ArrowRight from "../Icons/arrow-right";
 import ArrowTopRight from "../Icons/arrow-top-right";
 
 function ImaginationFlow() {
+  const [hideGrid, setGrid] = useState(true)
+
   return (
     <div
       className={styles.main_flow_area}
@@ -119,7 +123,7 @@ function ImaginationFlow() {
             </p>
           </div>
         </div>
-        <div className={styles.straight_grids}>
+        <div className={`${styles.straight_grids} ${hideGrid ? 'hidden md:block' : 'block'}`}>
           <div className={styles.indi_feature}>
             <Image src={PaintBrush} alt="paintbrush" />
             <h3>Color Styles</h3>
@@ -148,7 +152,7 @@ function ImaginationFlow() {
             </p>
           </div>
         </div>
-        <div className={styles.straight_grids}>
+        <div className={`${styles.straight_grids} ${hideGrid ? 'hidden md:block' : 'block'}`}>
           <div className={styles.indi_feature}>
             <Image src={Landscape} alt="landscape" />
             <h3>Add Files & Media</h3>
@@ -174,6 +178,7 @@ function ImaginationFlow() {
           </div>
         </div>
       </div>
+      <button className={`${styles.viewmore_button} ${hideGrid ? 'block md:hidden' : 'hidden'}`} onClick={(e) => setGrid(false)}>View More</button>
     </div>
   );
 }

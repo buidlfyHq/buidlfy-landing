@@ -4,6 +4,13 @@
   padding-bottom: 6rem;
   width: fit-content;
 
+  @media screen and (max-width: 767px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 80%;
+  }
+
+
   .main_line {
     font-family: "Inter";
     font-weight: 500;
@@ -26,6 +33,11 @@
     letter-spacing: -0.02em;
 
     color: #ffffff;
+
+    @media screen and (max-width: 767px) {
+      line-height: 1.2;
+      font-size: 40px;
+    }
   }
 
   .desc {
@@ -43,6 +55,12 @@
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 4rem;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 2rem;
+      width: 100%;
+      font-size: 17px;
+    }
   }
 
   .pink_bg {
@@ -55,6 +73,12 @@
     border-radius: 8px;
     display: flex;
     padding-top: 6rem;
+
+    @media screen and (max-width: 767px) {
+      padding-bottom: 0;
+      padding-top: 0;
+      width: 100%;
+    }
 
     .left_side {
       width: 30%;
@@ -133,6 +157,11 @@
       width: 70%;
       position: relative;
       left: 5rem;
+
+      @media screen and (max-width: 767px) {
+        left: 0;
+        width: 100%;
+      }
     }
   }
 
@@ -141,6 +170,10 @@
     margin: auto;
     display: flex;
     margin-top: 2rem;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
 
     .deploy_box {
       width: 60%;

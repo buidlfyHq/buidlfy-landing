@@ -550,4 +550,18 @@
       }
     }
   }
+
+  .viewmore_button {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+    background: linear-gradient(93.43deg, #5DA0EF 19.42%, #7A66F7 75.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
 }

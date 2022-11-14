@@ -9,10 +9,19 @@
     display: flex;
     justify-content: center;
 
+    @media screen and (max-width: 767px) {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+
     .left_area {
       width: 20%;
       display: grid;
       padding-right: 1rem;
+
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
 
       span:nth-child(1) {
         margin-left: auto !important;
@@ -26,6 +35,10 @@
     .center_area {
       width: 60%;
       margin: auto;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+      }
 
       h1 {
         font-family: "Inter";
@@ -59,6 +72,11 @@
 
         opacity: 0.7;
         margin-top: 2rem;
+
+        @media screen and (max-width: 767px) {
+          width: 100%;
+          font-size: 17px;
+        }
       }
 
       .button_area {
@@ -106,6 +124,10 @@
       width: 20%;
       display: grid;
       padding-left: 1rem;
+
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
 
       span:nth-child(1) {
         margin-right: auto !important;

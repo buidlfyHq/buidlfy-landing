@@ -7,10 +7,28 @@
     padding-top: 4rem;
     padding-bottom: 6rem;
 
+
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-flow: column;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+    }
+
     .left_area {
       width: 50%;
       padding-left: 7rem;
       padding-right: 7rem;
+
+      @media screen and (max-width: 767px) {
+        width: 80%;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        order: 1;
+      }
 
       .logo {
         padding: 0.5rem;
@@ -107,9 +125,19 @@
       width: 50%;
       display: flex;
 
+      @media screen and (max-width: 767px) {
+        width: 70%;
+        order: 0;
+      }
+
       .footer_list {
         margin-left: 4rem;
         margin-right: 4rem;
+
+        @media screen and (max-width: 767px) {
+          margin-left: 3rem;
+          margin-right: 3rem;
+        }
 
         h1 {
           font-family: "Inter";

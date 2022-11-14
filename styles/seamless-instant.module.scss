@@ -1,61 +1,88 @@
 .main_area {
   background: rgba(255, 255, 255, 0.05);
-  margin: auto;
-  padding-top: 8rem;
-  padding-bottom: 6rem;
-  width: 100%;
 
-  .main_line {
-    font-family: "Inter";
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.115em;
-    text-align: center;
-    color: #828fff;
-    text-transform: uppercase;
-  }
 
-  .main_head {
-    margin-top: 1rem;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 88px;
-    text-align: center;
-    letter-spacing: -0.02em;
-
-    color: #ffffff;
-  }
-
-  .desc {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-
-    text-align: center;
-    letter-spacing: 0.3px;
-
-    color: rgba(217, 218, 255, 0.4);
-    width: 50%;
+  .inner_layer {
     margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-  }
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    width: 100%;
 
-  .pink_bg {
-    margin: auto;
-    width: 80%;
-    height: 100vh;
-    background: linear-gradient(107.17deg, #ca8fc7 0%, #4a25bc 100%);
-    border-radius: 8px;
-    display: flex;
+    @media screen and (max-width: 767px) {
+      width: 80%;
+      padding-top: 6rem;
+      padding-bottom: 4rem;
+    }
 
-    span {
-      margin: auto !important;
+    .main_line {
+      font-family: "Inter";
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.115em;
+      text-align: center;
+      color: #828fff;
+      text-transform: uppercase;
+    }
+
+    .main_head {
+      margin-top: 1rem;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 88px;
+      text-align: center;
+      letter-spacing: -0.02em;
+
+      color: #ffffff;
+
+      @media screen and (max-width: 767px) {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 1.5;
+      }
+    }
+
+    .desc {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+
+      text-align: center;
+      letter-spacing: 0.3px;
+
+      color: rgba(217, 218, 255, 0.4);
+      width: 50%;
+      margin: auto;
+      margin-top: 1rem;
+      margin-bottom: 4rem;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    .pink_bg {
+      margin: auto;
+      width: 80%;
+      height: fit-content;
+      background: linear-gradient(107.17deg, #ca8fc7 0%, #4a25bc 100%);
+      border-radius: 8px;
+      display: flex;
+      padding: 5rem 0;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        padding: 1rem;
+      }
+
+
+      span {
+        margin: auto !important;
+      }
     }
   }
 }
