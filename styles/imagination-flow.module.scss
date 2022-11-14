@@ -70,7 +70,7 @@
       display: flex;
       padding-top: 8rem;
 
-      @media screen and (max-width: 767px) {
+      @media screen and (max-width: 850px) {
         display: block;
         padding-top: 1rem;
         padding-bottom: 0rem;
@@ -81,7 +81,7 @@
         position: relative;
         left: -5rem;
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 850px) {
           left: 0;
           width: 96%;
         }

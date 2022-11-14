@@ -41,7 +41,7 @@ function ImaginationFlow() {
           <div className={styles.left_side}>
             <Image src={Flow} alt="Flow" />
           </div>
-          <div className={styles.right_side}>
+          <div className={`${styles.right_side} hidden lg:block`}>
             <Image src={Leaf} alt="leaf" />
             <h2>Let&apos;s build the future of the web</h2>
             <p>

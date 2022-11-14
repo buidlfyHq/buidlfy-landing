@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 850px) {
       padding-top: 4rem;
       padding-bottom: 4rem;
     }
@@ -19,7 +19,7 @@
       display: grid;
       padding-right: 1rem;
 
-      @media screen and (max-width: 767px) {
+      @media screen and (max-width: 850px) {
         display: none;
       }
 
@@ -36,7 +36,7 @@
       width: 60%;
       margin: auto;
 
-      @media screen and (max-width: 767px) {
+      @media screen and (max-width: 850px) {
         width: 100%;
       }
 
@@ -125,7 +125,7 @@
       display: grid;
       padding-left: 1rem;
 
-      @media screen and (max-width: 767px) {
+      @media screen and (max-width: 850px) {
         display: none;
       }
 

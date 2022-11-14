@@ -4,11 +4,17 @@
   padding-bottom: 6rem;
   width: fit-content;
 
+
+  @media screen and (max-width: 850px) {
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   @media screen and (max-width: 767px) {
     padding-top: 8rem;
     padding-left: 1rem;
     padding-right: 1rem;
-
   }
 
   .main_line {
@@ -38,6 +44,11 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media screen and (max-width: 850px) {
+      font-size: 56px;
+      line-height: 66px;
+    }
 
     @media screen and (max-width: 767px) {
       font-size: 46px;

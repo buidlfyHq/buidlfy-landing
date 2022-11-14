@@ -74,6 +74,11 @@
       display: flex;
       padding: 5rem 0;
 
+      @media screen and (max-width: 850px) {
+        width: 80%;
+        padding: 1rem;
+      }
+
       @media screen and (max-width: 767px) {
         width: 100%;
         padding: 1rem;

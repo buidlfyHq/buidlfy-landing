@@ -21,7 +21,7 @@ function ShipSite() {
           infinitely powered by Spheron Network.
         </h5>
         <div className={styles.blue_bg}>
-          <div className={styles.left_side}>
+          <div className={`${styles.left_side} hidden lg:block`}>
             <Image src={Tickmark} alt="Tickmark" />
             <h2>Ship sites and Scale</h2>
             <p>
