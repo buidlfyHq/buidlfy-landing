@@ -20,7 +20,6 @@ const Designers: NextPage = () => {
 
   return (
     <>
-      {/* <div className="hidden lg:block"> */}
       <Meta
         title="Buidlfy - No-code dapp builder"
         desc="Buidlfy is on the mission to provide a No-Code UI builder tool for Web3 Devs to build their landing page, apps, NFT showcase and many more without needing any Front End Knowledge."
@@ -39,12 +38,6 @@ const Designers: NextPage = () => {
       <BuildNextGen />
       <JoinDiscord />
       <Footer />
-      {/* </div> */}
-      {/* <div className="block lg:hidden">
-        <h1 className="warning_text">
-          Please use desktop to view this website
-        </h1>
-      </div> */}
     </>
   );
 };

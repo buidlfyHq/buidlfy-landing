@@ -3,6 +3,11 @@
   padding-top: 7rem;
   padding-bottom: 7rem;
 
+  @media screen and (max-width: 767px) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .gradient_box {
     background: linear-gradient(279.56deg,
         rgba(84, 214, 255, 0.33) 2.63%,
