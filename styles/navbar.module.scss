@@ -54,8 +54,6 @@
       }
     }
 
-    // border: 1px solid linear-gradient(#5EBAEE, #6841D7) 30;
-
     .right_nav {
       @media screen and (max-width: 1225px) {
         display: none;
@@ -88,7 +86,6 @@
 
         &:hover {
           transition: 0.3s ease-in-out;
-          // box-shadow: 0px 2px 30px rgba(93, 56, 244, 0.6);
           box-shadow: 0px 4px 100px #5d75f0;
         }
       }
@@ -98,7 +95,6 @@
       display: none !important;
 
       @media screen and (max-width: 1225px) {
-
         display: flex !important;
         height: 60px;
 
@@ -190,7 +186,6 @@
           padding: 10px 90px;
           margin-top: 0.5rem;
         }
-
       }
     }
 

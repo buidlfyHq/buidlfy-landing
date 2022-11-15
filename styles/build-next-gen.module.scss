@@ -15,10 +15,7 @@
     font-weight: 500;
     font-size: 30px;
     line-height: 40px;
-    /* identical to box height, or 111% */
-
     text-align: center;
-
     color: #ffffff;
   }
 
@@ -28,9 +25,7 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
-    /* or 156% */
     width: 30%;
-
     margin: auto;
     text-align: center;
     margin-top: 1rem;
@@ -54,13 +49,9 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
-    /* identical to box height, or 140% */
-
     letter-spacing: 0.2px;
     text-transform: capitalize;
     display: flex;
-
-    // margin-bottom: 5rem;
     margin-top: 4rem;
 
     box-shadow: 0px 4px 100px #5d75f0;
@@ -72,9 +63,11 @@
     }
 
     &:hover {
-      background: linear-gradient(0deg,
+      background: linear-gradient(
+          0deg,
           rgba(48, 24, 192, 0.32),
-          rgba(48, 24, 192, 0.32)),
+          rgba(48, 24, 192, 0.32)
+        ),
         linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
       box-shadow: 0px 4px 100px #5d75f0;
     }

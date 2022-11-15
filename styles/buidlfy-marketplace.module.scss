@@ -60,13 +60,11 @@
       width: 80%;
       font-size: 16px;
     }
-
   }
 
   .blue_bg {
     margin: auto;
     width: 80%;
-    // height: 100vh;
     padding: 4rem 0;
     background: linear-gradient(107.17deg, #82bbff 0%, #4a25bc 100%);
     border-radius: 8px;
@@ -103,11 +101,9 @@
       border-radius: 12px;
       margin-right: 1rem;
 
-      // display: flex;
       @media screen and (max-width: 767px) {
         width: 100%;
       }
-
 
       .inner_layer {
         padding: 50px;
@@ -116,15 +112,12 @@
           padding: 40px;
         }
 
-
         h1 {
           font-family: "Inter";
           font-style: normal;
           font-weight: 400;
           font-size: 20px;
           line-height: 27px;
-          /* identical to box height, or 135% */
-
           color: #ffffff;
           padding-top: 2rem;
         }
@@ -135,10 +128,7 @@
           font-weight: 400;
           font-size: 14px;
           line-height: 24px;
-          /* or 171% */
-
           letter-spacing: 0.3px;
-
           color: rgba(255, 255, 255, 0.8);
           padding-top: 1rem;
           width: 90%;
@@ -181,8 +171,6 @@
           font-weight: 400;
           font-size: 20px;
           line-height: 27px;
-          /* identical to box height, or 135% */
-
           color: #ffffff;
           padding-top: 2rem;
         }
@@ -193,10 +181,7 @@
           font-weight: 400;
           font-size: 14px;
           line-height: 24px;
-          /* or 171% */
-
           letter-spacing: 0.3px;
-
           color: rgba(255, 255, 255, 0.8);
           padding-top: 1rem;
         }

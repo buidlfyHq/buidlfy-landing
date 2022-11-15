@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import type { NextPage } from "next";
 
-
 import BuidlfyMarketplace from "../components/BuidlfyMarketplace";
 import BuildApps from "../components/BuildApps";
 import BuildNextGen from "../components/BuildNextGen";

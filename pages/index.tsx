@@ -26,7 +26,6 @@ const Home: NextPage = () => {
         metaImage="https://buidlfy.com/metaimage.png"
         url="https://buidlfy.com"
       />{" "}
-
       <MobileNav showMobileNav={mobileNav} setShowMobileNav={setMobileNav} />
       <NavBar setShowMobileNav={setMobileNav} />
       <DesignConnectShip />

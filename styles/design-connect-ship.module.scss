@@ -4,7 +4,6 @@
   padding-bottom: 6rem;
   width: fit-content;
 
-
   @media screen and (max-width: 850px) {
     padding-top: 10rem;
     padding-left: 2rem;
@@ -37,7 +36,8 @@
     line-height: 88px;
     text-align: center;
     letter-spacing: -0.02em;
-    // anim
+
+    // flow animation
     animation: flow 8s ease-in-out infinite;
     background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752);
     background-size: 200%;
@@ -105,22 +105,19 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
-    /* identical to box height, or 140% */
-
     letter-spacing: 0.2px;
     text-transform: capitalize;
     display: flex;
-
     margin-bottom: 5rem;
-
     box-shadow: 0px 4px 100px #5d75f0;
-
     transition: 0.3s ease-in-out;
 
     &:hover {
-      background: linear-gradient(0deg,
+      background: linear-gradient(
+          0deg,
           rgba(48, 24, 192, 0.32),
-          rgba(48, 24, 192, 0.32)),
+          rgba(48, 24, 192, 0.32)
+        ),
         linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
       box-shadow: 0px 4px 100px #5d75f0;
     }

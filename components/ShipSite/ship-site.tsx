@@ -25,8 +25,8 @@ function ShipSite() {
             <Image src={Tickmark} alt="Tickmark" />
             <h2>Ship sites and Scale</h2>
             <p>
-              Build you dapp using the no-code tool and ship it to your users with
-              a single click.
+              Build you dapp using the no-code tool and ship it to your users
+              with a single click.
             </p>
             <p>
               Buidlfy and Spheron works together to deliver the best performance

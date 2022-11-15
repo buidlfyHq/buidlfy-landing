@@ -119,10 +119,7 @@
           font-weight: 400;
           font-size: 15px;
           line-height: 24px;
-          /* or 171% */
-
           letter-spacing: 0.3px;
-
           color: rgba(255, 255, 255, 0.8);
           margin-bottom: 1rem;
         }
@@ -138,16 +135,17 @@
             font-weight: 400;
             font-size: 17px;
             line-height: 150%;
-            /* identical to box height, or 30px */
             padding: 10px 25px;
             text-align: center;
             margin-top: 2rem;
             margin-right: 5px;
 
             &:hover {
-              background: linear-gradient(0deg,
+              background: linear-gradient(
+                  0deg,
                   rgba(48, 24, 192, 0.32),
-                  rgba(48, 24, 192, 0.32)),
+                  rgba(48, 24, 192, 0.32)
+                ),
                 linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
               box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.25);
             }
@@ -163,16 +161,20 @@
             padding: 10px 25px;
             margin-top: 2rem;
             color: white;
-            background: linear-gradient(91.49deg,
-                rgba(255, 255, 255, 0.1) -48.22%,
-                rgba(255, 255, 255, 0.08) 62.18%,
-                rgba(255, 255, 255, 0) 100%);
+            background: linear-gradient(
+              91.49deg,
+              rgba(255, 255, 255, 0.1) -48.22%,
+              rgba(255, 255, 255, 0.08) 62.18%,
+              rgba(255, 255, 255, 0) 100%
+            );
             border-radius: 4px;
 
             &:hover {
-              background: linear-gradient(105.02deg,
-                  rgba(255, 255, 255, 0.54) 7.45%,
-                  rgba(255, 255, 255, 0) 98.03%);
+              background: linear-gradient(
+                105.02deg,
+                rgba(255, 255, 255, 0.54) 7.45%,
+                rgba(255, 255, 255, 0) 98.03%
+              );
             }
           }
         }
@@ -204,10 +206,11 @@
       .gradient_edit_area {
         border-radius: 12px 12px 0px 0px;
         margin-top: 1.5rem;
-        // height: 30vh;
-        background: linear-gradient(122.68deg,
-            rgba(153, 119, 253, 0.7) -19.3%,
-            rgba(221, 50, 49, 0.7) 120.25%);
+        background: linear-gradient(
+          122.68deg,
+          rgba(153, 119, 253, 0.7) -19.3%,
+          rgba(221, 50, 49, 0.7) 120.25%
+        );
 
         .top_overlay {
           background: rgba(0, 0, 0, 0.3);
@@ -254,9 +257,11 @@
         background: rgba(255, 255, 255, 0.05);
 
         &:hover {
-          background: linear-gradient(0deg,
+          background: linear-gradient(
+              0deg,
               rgba(134, 20, 204, 0.06),
-              rgba(134, 20, 204, 0.06)),
+              rgba(134, 20, 204, 0.06)
+            ),
             rgba(255, 255, 255, 0.05);
         }
 
@@ -285,10 +290,8 @@
           font-weight: bolder;
           font-size: 17px;
           line-height: 20px;
-          /* identical to box height, or 111% */
           margin-top: 2rem;
           letter-spacing: 0.2px;
-
           color: #ba5bac;
           display: flex;
           cursor: pointer;
@@ -323,9 +326,11 @@
         background: rgba(255, 255, 255, 0.05);
 
         &:hover {
-          background: linear-gradient(0deg,
+          background: linear-gradient(
+              0deg,
               rgba(134, 20, 204, 0.06),
-              rgba(134, 20, 204, 0.06)),
+              rgba(134, 20, 204, 0.06)
+            ),
             rgba(255, 255, 255, 0.05);
         }
 
@@ -354,10 +359,8 @@
           font-weight: bolder;
           font-size: 17px;
           line-height: 20px;
-          /* identical to box height, or 111% */
           margin-top: 2rem;
           letter-spacing: 0.2px;
-
           color: #ba5bac;
           display: flex;
           cursor: pointer;
@@ -395,9 +398,11 @@
         background: rgba(255, 255, 255, 0.05);
 
         &:hover {
-          background: linear-gradient(0deg,
+          background: linear-gradient(
+              0deg,
               rgba(134, 20, 204, 0.06),
-              rgba(134, 20, 204, 0.06)),
+              rgba(134, 20, 204, 0.06)
+            ),
             rgba(255, 255, 255, 0.05);
         }
 
@@ -408,7 +413,6 @@
           font-weight: bolder;
           font-size: 16px;
           line-height: 17px;
-          /* identical to box height, or 106% */
 
           letter-spacing: 0.3px;
 
@@ -423,21 +427,16 @@
           user-select: none;
 
           &:hover {
-            background: linear-gradient(93.43deg,
-                #60bcff 19.42%,
-                #8f5aff 63.9%);
-
-            // background: linear-gradient(0deg, rgba(92, 68, 231, 0.23), rgba(92, 68, 231, 0.23)), linear-gradient(93.43deg, #5DA0EF 19.42%, #7A64FF 63.9%);
+            background: linear-gradient(
+              93.43deg,
+              #60bcff 19.42%,
+              #8f5aff 63.9%
+            );
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             text-fill-color: transparent;
             justify-content: center;
-
-            // svg {
-            //     margin-left: 10px;
-            //     transition: 0.2s ease-in-out;
-            // }
           }
 
           svg {
@@ -457,9 +456,11 @@
         background: rgba(255, 255, 255, 0.05);
 
         &:hover {
-          background: linear-gradient(0deg,
+          background: linear-gradient(
+              0deg,
               rgba(134, 20, 204, 0.06),
-              rgba(134, 20, 204, 0.06)),
+              rgba(134, 20, 204, 0.06)
+            ),
             rgba(255, 255, 255, 0.05);
         }
 
@@ -502,9 +503,11 @@
         background: rgba(255, 255, 255, 0.05);
 
         &:hover {
-          background: linear-gradient(0deg,
+          background: linear-gradient(
+              0deg,
               rgba(134, 20, 204, 0.06),
-              rgba(134, 20, 204, 0.06)),
+              rgba(134, 20, 204, 0.06)
+            ),
             rgba(255, 255, 255, 0.05);
         }
 
@@ -541,7 +544,6 @@
           text-align: right;
 
           span {
-            // border-radius: 12px 0px 0px 0px;
             width: 100% !important;
           }
         }
@@ -552,7 +554,7 @@
   .viewmore_button {
     background: rgba(255, 255, 255, 0.06);
     border-radius: 4px;
-    background: linear-gradient(93.43deg, #5DA0EF 19.42%, #7A66F7 75.6%);
+    background: linear-gradient(93.43deg, #5da0ef 19.42%, #7a66f7 75.6%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

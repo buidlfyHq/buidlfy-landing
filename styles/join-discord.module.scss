@@ -9,9 +9,11 @@
   }
 
   .gradient_box {
-    background: linear-gradient(279.56deg,
-        rgba(84, 214, 255, 0.33) 2.63%,
-        rgba(135, 134, 255, 0.58) 75.15%);
+    background: linear-gradient(
+      279.56deg,
+      rgba(84, 214, 255, 0.33) 2.63%,
+      rgba(135, 134, 255, 0.58) 75.15%
+    );
     border-radius: 20px;
     width: 75%;
     margin: auto;
@@ -24,7 +26,6 @@
       padding-top: 2rem;
       padding-bottom: 2rem;
     }
-
   }
 
   h1 {
@@ -33,15 +34,11 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 100%;
-    /* identical to box height, or 36px */
-
     text-align: center;
-
     color: #ffffff;
     margin-top: 1.5rem;
 
     @media screen and (max-width: 767px) {
-
       font-weight: 300;
       font-size: 28px;
     }
@@ -53,10 +50,7 @@
     font-weight: 300;
     font-size: 17px;
     line-height: 30px;
-    /* or 178% */
-
     text-align: center;
-
     color: rgba(255, 255, 255, 0.6);
     width: 60%;
     margin: auto;
@@ -69,7 +63,6 @@
   }
 
   .join_button {
-    // background: rgba(5, 2, 13, 0.65);
     background: rgba(6, 0, 21, 0.67);
     box-shadow: 0px 4px 60px rgba(69, 166, 255, 0.71);
     border-radius: 12px;

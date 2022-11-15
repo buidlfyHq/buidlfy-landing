@@ -10,7 +10,6 @@
     width: 80%;
   }
 
-
   .main_line {
     font-family: "Inter";
     font-weight: 500;
@@ -68,8 +67,6 @@
     width: 80%;
     padding-bottom: 4rem;
     background: linear-gradient(106.24deg, #5322b7 0.63%, #8e40a9 100%);
-
-    // background: linear-gradient(106.24deg, #FFA7A7 0.63%, #A30CB5 44.62%, #00173A 100%);
     border-radius: 8px;
     display: flex;
     padding-top: 6rem;
@@ -120,19 +117,17 @@
         font-weight: 400;
         font-size: 15px;
         line-height: 24px;
-        /* or 171% */
-
         letter-spacing: 0.3px;
-
         color: rgba(255, 255, 255, 0.8);
         margin-bottom: 1rem;
       }
 
       .try_button {
-        // background: linear-gradient(113.45deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 92.19%);
-        background: linear-gradient(105.02deg,
-            rgba(255, 255, 255, 0.37) 7.45%,
-            rgba(255, 255, 255, 0) 98.03%);
+        background: linear-gradient(
+          105.02deg,
+          rgba(255, 255, 255, 0.37) 7.45%,
+          rgba(255, 255, 255, 0) 98.03%
+        );
         border-radius: 4px;
         backdrop-filter: blur(25px);
         display: flex;
@@ -140,15 +135,16 @@
         font-weight: 400;
         font-size: 17px;
         line-height: 150%;
-        /* identical to box height, or 30px */
         padding: 10px 40px;
         text-align: center;
         margin-top: 2rem;
 
         &:hover {
-          background: linear-gradient(105.02deg,
-              rgba(255, 255, 255, 0.54) 7.45%,
-              rgba(255, 255, 255, 0) 98.03%);
+          background: linear-gradient(
+            105.02deg,
+            rgba(255, 255, 255, 0.54) 7.45%,
+            rgba(255, 255, 255, 0) 98.03%
+          );
         }
 
         svg {
@@ -196,8 +192,6 @@
           font-weight: 400;
           font-size: 20px;
           line-height: 27px;
-          /* identical to box height, or 135% */
-
           color: #ffffff;
           padding-top: 2rem;
         }
@@ -208,10 +202,7 @@
           font-weight: 400;
           font-size: 14px;
           line-height: 24px;
-          /* or 171% */
-
           letter-spacing: 0.3px;
-
           color: rgba(255, 255, 255, 0.8);
           padding-top: 1rem;
         }
@@ -227,8 +218,6 @@
             display: none !important;
           }
         }
-
-
       }
     }
 
@@ -245,8 +234,6 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 27px;
-        /* identical to box height, or 135% */
-
         color: #ffffff;
         padding-top: 2rem;
       }
@@ -257,10 +244,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-
         letter-spacing: 0.3px;
-
         color: rgba(255, 255, 255, 0.8);
         padding-top: 1rem;
       }

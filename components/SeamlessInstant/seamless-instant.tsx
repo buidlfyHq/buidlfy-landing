@@ -13,7 +13,9 @@ function SeamlessInstant() {
     >
       <div className={styles.inner_layer}>
         <h5 className={styles.main_line}>Ready to Use</h5>
-        <h1 className={styles.main_head}>Designed to be seamless and instant.</h1>
+        <h1 className={styles.main_head}>
+          Designed to be seamless and instant.
+        </h1>
         <h5 className={styles.desc}>
           Start from scratch or select over 100 stunning templates to create a
           stunning wesite in seconds.
