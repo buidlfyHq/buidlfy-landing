@@ -1,16 +1,32 @@
 .footer_outer {
   background: #05020d;
 
-  // text-align: center;
   .main_area {
     display: flex;
     padding-top: 4rem;
     padding-bottom: 6rem;
 
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-flow: column;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+    }
+
     .left_area {
       width: 50%;
       padding-left: 7rem;
       padding-right: 7rem;
+
+      @media screen and (max-width: 767px) {
+        width: 80%;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        order: 1;
+      }
 
       .logo {
         padding: 0.5rem;
@@ -26,10 +42,6 @@
         font-weight: 400;
         font-size: 15px;
         line-height: 30px;
-        /* identical to box height, or 231% */
-
-        /* Dark/White 60% */
-
         color: rgba(255, 255, 255, 0.6);
         margin-left: 0.5rem;
       }
@@ -58,7 +70,6 @@
         }
 
         .subscribe_button {
-          // background: linear-gradient(90deg, #435BAF 0%, #6841D7 100%);
           background: linear-gradient(90deg, #5da0f0 0%, #5c44e8 100%);
 
           border-radius: 4px;
@@ -74,7 +85,6 @@
 
           &:hover {
             transition: 0.3s ease-in-out;
-            // box-shadow: 0px 4px 100px #5d75f0;
             background: linear-gradient(90deg, #3582de 0%, #a044e8 100%);
           }
         }
@@ -95,7 +105,6 @@
           padding-left: 9px;
           cursor: pointer;
 
-          // convert to svg and fill them.
           &:hover {
             background: rgba(255, 255, 255, 0.2);
           }
@@ -107,9 +116,19 @@
       width: 50%;
       display: flex;
 
+      @media screen and (max-width: 767px) {
+        width: 70%;
+        order: 0;
+      }
+
       .footer_list {
         margin-left: 4rem;
         margin-right: 4rem;
+
+        @media screen and (max-width: 767px) {
+          margin-left: 3rem;
+          margin-right: 3rem;
+        }
 
         h1 {
           font-family: "Inter";
@@ -117,15 +136,11 @@
           font-weight: 300;
           font-size: 17px;
           line-height: 19px;
-
-          /* Dark/Primary */
-
           color: #ffffff;
           margin-bottom: 2.5rem;
         }
 
         p {
-          // color: rgba(255, 255, 255, 0.6);
           color: rgba(229, 229, 255, 0.5);
 
           font-weight: 300;

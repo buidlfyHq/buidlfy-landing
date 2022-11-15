@@ -4,6 +4,11 @@
   padding-bottom: 6rem;
   width: 80%;
 
+  @media screen and (max-width: 767px) {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
   .main_line {
     font-family: "Inter";
     font-weight: 500;
@@ -28,6 +33,17 @@
     width: 50%;
     margin: auto;
     margin-top: 1rem;
+
+    @media screen and (max-width: 850px) {
+      width: 70%;
+    }
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 1.4;
+    }
   }
 
   .feature_list {
@@ -35,6 +51,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
 
     .individual_feature {
       width: 30%;
@@ -44,6 +64,17 @@
       box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
       border-radius: 16px;
 
+      @media screen and (max-width: 850px) {
+        width: 45%;
+        padding: 1rem;
+      }
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+      }
+
       h1 {
         padding-top: 1rem;
         font-family: "Inter";
@@ -51,10 +82,7 @@
         font-weight: 500;
         font-size: 19px;
         line-height: 150%;
-        /* identical to box height, or 27px */
-
         letter-spacing: 0.005em;
-
         color: #ffffff;
       }
 
@@ -65,9 +93,11 @@
         font-weight: 300;
         font-size: 14px;
         line-height: 26px;
-        /* or 200% */
-
         color: #a7a9be;
+
+        @media screen and (max-width: 767px) {
+          font-size: 16px;
+        }
       }
     }
   }

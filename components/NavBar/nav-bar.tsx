@@ -5,12 +5,16 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 import LogoIcon from "../../public/logo.svg";
+import LightHamburger from "../../public/white-menu.svg";
 import styles from "../../styles/navbar.module.scss";
 
-function NavBar() {
+interface IProps {
+  setShowMobileNav: (value: boolean) => void;
+}
+
+function NavBar({ setShowMobileNav }: IProps) {
   const router = useRouter();
   let path = router.pathname;
-  console.log(path);
 
   return (
     <header className={styles.navbar}>
@@ -56,6 +60,17 @@ function NavBar() {
           >
             Try for Free
           </button>
+        </div>
+        <div className={styles.hamburger__wrapper}>
+          <Image
+            height={40}
+            width={40}
+            src={LightHamburger}
+            alt="hamburger"
+            onClick={() => {
+              setShowMobileNav(true);
+            }}
+          />
         </div>
       </div>
     </header>
