@@ -7,16 +7,7 @@ import { useRouter } from "next/router";
 import useOnClickOutside from "../../hooks/use-on-click-outside";
 import CloseBtn from "../../public/close-button.svg";
 import Logo from "../../public/logo.svg";
-// import Logo from "../../assets/logo.svg";
-// import LogoDark from "../../assets/spheron_dark.svg";
 import styles from "../../styles/navbar.module.scss";
-// import Button from "../Buttons/button";
-// import ChevronDown from "../Icons/chevron-down";
-// import ChevronUp from "../Icons/chevron-up";
-// import DeployPreview from "../Icons/deploy-preview";
-// import Frameworks from "../Icons/frameworks";
-// import MultiChain from "../Icons/multi-chain";
-// import MultiProtocol from "../Icons/multi-protocol";
 
 interface IProps {
   showMobileNav: boolean;
