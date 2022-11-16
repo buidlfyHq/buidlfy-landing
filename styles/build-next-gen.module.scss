@@ -2,16 +2,20 @@
   padding-top: 9rem;
   padding-bottom: 9rem;
 
+  @media screen and (max-width: 767px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 80%;
+    margin: auto;
+  }
+
   h1 {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 40px;
-    /* identical to box height, or 111% */
-
     text-align: center;
-
     color: #ffffff;
   }
 
@@ -21,13 +25,15 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
-    /* or 156% */
     width: 30%;
-
     margin: auto;
     text-align: center;
     margin-top: 1rem;
     color: rgba(255, 255, 255, 0.6);
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
   }
 
   .gradient_button {
@@ -43,18 +49,18 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
-    /* identical to box height, or 140% */
-
     letter-spacing: 0.2px;
     text-transform: capitalize;
     display: flex;
-
-    // margin-bottom: 5rem;
     margin-top: 4rem;
 
     box-shadow: 0px 4px 100px #5d75f0;
 
     transition: 0.3s ease-in-out;
+
+    @media screen and (max-width: 767px) {
+      margin-top: 3rem;
+    }
 
     &:hover {
       background: linear-gradient(

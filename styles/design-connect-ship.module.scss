@@ -4,6 +4,18 @@
   padding-bottom: 6rem;
   width: fit-content;
 
+  @media screen and (max-width: 850px) {
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .main_line {
     font-family: "Inter";
     font-weight: 500;
@@ -24,13 +36,24 @@
     line-height: 88px;
     text-align: center;
     letter-spacing: -0.02em;
-    // anim
+
+    // flow animation
     animation: flow 8s ease-in-out infinite;
     background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752);
     background-size: 200%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media screen and (max-width: 850px) {
+      font-size: 56px;
+      line-height: 66px;
+    }
+
+    @media screen and (max-width: 767px) {
+      font-size: 46px;
+      line-height: 66px;
+    }
   }
 
   @keyframes flow {
@@ -60,33 +83,14 @@
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 3rem;
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      font-size: 16px;
+      margin-bottom: 2rem;
+      line-height: 24px;
+    }
   }
-
-  // .left_ellipse {
-  //     background: rgba(97, 0, 255, 0.17);
-  //     border: 0.66978px solid #000000;
-  //     filter: blur(108.839px);
-  //     transform: rotate(-131.58deg);
-  //     //
-  //     position: absolute;
-  //     width: 875.21px;
-  //     height: 669.02px;
-  //     left: 100px;
-  //     top: 300px;
-  // }
-
-  // .right_ellipse {
-  //     background: rgba(80, 77, 237, 0.1);
-  //     border: 0.66978px solid #000000;
-  //     filter: blur(108.839px);
-  //     transform: rotate(-131.58deg);
-  //     //
-  //     position: absolute;
-  //     width: 875.21px;
-  //     height: 500.11px;
-  //     left: 600px;
-  //     top: 250px;
-  // }
 
   .gradient_button {
     background: linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
@@ -101,16 +105,11 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
-    /* identical to box height, or 140% */
-
     letter-spacing: 0.2px;
     text-transform: capitalize;
     display: flex;
-
     margin-bottom: 5rem;
-
     box-shadow: 0px 4px 100px #5d75f0;
-
     transition: 0.3s ease-in-out;
 
     &:hover {
@@ -126,6 +125,10 @@
     svg {
       margin-top: 9px;
       margin-left: 10px;
+    }
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 3rem;
     }
   }
 }

@@ -30,8 +30,12 @@
       line-height: 57px;
       text-align: center;
       letter-spacing: -0.02em;
-
       color: #ffffff;
+
+      @media screen and (max-width: 767px) {
+        font-size: 40px;
+        line-height: 52px;
+      }
     }
 
     .desc {
@@ -49,6 +53,11 @@
       margin: auto;
       margin-top: 1rem;
       margin-bottom: 4rem;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
     }
 
     .purple_bg {
@@ -59,16 +68,31 @@
       display: flex;
       padding-top: 8rem;
 
+      @media screen and (max-width: 850px) {
+        display: block;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+      }
+
       .left_side {
         width: 70%;
         position: relative;
         left: -5rem;
+
+        @media screen and (max-width: 850px) {
+          left: 0;
+          width: 96%;
+        }
       }
 
       .right_side {
         width: 30%;
         position: relative;
         left: -4rem;
+
+        @media screen and (max-width: 767px) {
+          display: none;
+        }
 
         span {
           span {
@@ -95,10 +119,7 @@
           font-weight: 400;
           font-size: 15px;
           line-height: 24px;
-          /* or 171% */
-
           letter-spacing: 0.3px;
-
           color: rgba(255, 255, 255, 0.8);
           margin-bottom: 1rem;
         }
@@ -114,7 +135,6 @@
             font-weight: 400;
             font-size: 17px;
             line-height: 150%;
-            /* identical to box height, or 30px */
             padding: 10px 25px;
             text-align: center;
             margin-top: 2rem;
@@ -168,15 +188,24 @@
     margin: auto;
     margin-top: 4rem;
 
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+
     .straight_grids {
       margin-right: 0.75rem;
       margin-left: 0.75rem;
       width: 33.33%;
 
+      @media screen and (max-width: 767px) {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+      }
+
       .gradient_edit_area {
         border-radius: 12px 12px 0px 0px;
         margin-top: 1.5rem;
-        // height: 30vh;
         background: linear-gradient(
           122.68deg,
           rgba(153, 119, 253, 0.7) -19.3%,
@@ -261,10 +290,8 @@
           font-weight: bolder;
           font-size: 17px;
           line-height: 20px;
-          /* identical to box height, or 111% */
           margin-top: 2rem;
           letter-spacing: 0.2px;
-
           color: #ba5bac;
           display: flex;
           cursor: pointer;
@@ -332,10 +359,8 @@
           font-weight: bolder;
           font-size: 17px;
           line-height: 20px;
-          /* identical to box height, or 111% */
           margin-top: 2rem;
           letter-spacing: 0.2px;
-
           color: #ba5bac;
           display: flex;
           cursor: pointer;
@@ -388,7 +413,6 @@
           font-weight: bolder;
           font-size: 16px;
           line-height: 17px;
-          /* identical to box height, or 106% */
 
           letter-spacing: 0.3px;
 
@@ -408,18 +432,11 @@
               #60bcff 19.42%,
               #8f5aff 63.9%
             );
-
-            // background: linear-gradient(0deg, rgba(92, 68, 231, 0.23), rgba(92, 68, 231, 0.23)), linear-gradient(93.43deg, #5DA0EF 19.42%, #7A64FF 63.9%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             text-fill-color: transparent;
             justify-content: center;
-
-            // svg {
-            //     margin-left: 10px;
-            //     transition: 0.2s ease-in-out;
-            // }
           }
 
           svg {
@@ -527,11 +544,24 @@
           text-align: right;
 
           span {
-            // border-radius: 12px 0px 0px 0px;
             width: 100% !important;
           }
         }
       }
     }
+  }
+
+  .viewmore_button {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+    background: linear-gradient(93.43deg, #5da0ef 19.42%, #7a66f7 75.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
   }
 }

@@ -3,6 +3,11 @@
   padding-top: 7rem;
   padding-bottom: 7rem;
 
+  @media screen and (max-width: 767px) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .gradient_box {
     background: linear-gradient(
       279.56deg,
@@ -15,6 +20,12 @@
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 4rem;
+
+    @media screen and (max-width: 767px) {
+      width: 80%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
   }
 
   h1 {
@@ -23,12 +34,14 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 100%;
-    /* identical to box height, or 36px */
-
     text-align: center;
-
     color: #ffffff;
     margin-top: 1.5rem;
+
+    @media screen and (max-width: 767px) {
+      font-weight: 300;
+      font-size: 28px;
+    }
   }
 
   p {
@@ -37,18 +50,19 @@
     font-weight: 300;
     font-size: 17px;
     line-height: 30px;
-    /* or 178% */
-
     text-align: center;
-
     color: rgba(255, 255, 255, 0.6);
     width: 60%;
     margin: auto;
     margin-top: 2rem;
+
+    @media screen and (max-width: 767px) {
+      width: 90%;
+      margin-top: 1rem;
+    }
   }
 
   .join_button {
-    // background: rgba(5, 2, 13, 0.65);
     background: rgba(6, 0, 21, 0.67);
     box-shadow: 0px 4px 60px rgba(69, 166, 255, 0.71);
     border-radius: 12px;

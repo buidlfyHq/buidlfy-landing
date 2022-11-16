@@ -24,7 +24,7 @@ function ConnectContract() {
         easy Web3 API.
       </h5>
       <div className={styles.pink_bg}>
-        <div className={styles.left_side}>
+        <div className={`${styles.left_side}  hidden lg:block`}>
           <Image src={Chipset} alt="chipset" />
           <h2>Connect Smart Contract </h2>
           <p>
