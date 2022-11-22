@@ -1,6 +1,6 @@
 .main_area {
   margin: auto;
-  padding-top: 14rem;
+  padding-top: 10rem;
   padding-bottom: 4rem;
   width: fit-content;
 
@@ -118,11 +118,9 @@
     transition: 0.3s ease-in-out;
 
     &:hover {
-      background: linear-gradient(
-          0deg,
+      background: linear-gradient(0deg,
           rgba(48, 24, 192, 0.32),
-          rgba(48, 24, 192, 0.32)
-        ),
+          rgba(48, 24, 192, 0.32)),
         linear-gradient(93.43deg, #5da0ef 19.42%, #5b44e7 63.9%);
       box-shadow: 0px 4px 100px #5d75f0;
     }

@@ -1,0 +1,103 @@
+.wall_bg {
+    background-image: url("../public/wall/wall.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .first_ellipse {
+        background: linear-gradient(180deg, #7350FF 0%, #FF50CE 100%);
+        opacity: 0.4;
+        filter: blur(200px);
+        width: 500px;
+        height: 500px;
+        bottom: 0;
+        position: absolute;
+        z-index: 1;
+
+        @media screen and (min-width: 1500px) {
+            bottom: 200px;
+        }
+
+        @media screen and (max-width: 850px) {
+            display: none;
+        }
+    }
+
+    .second_ellipse {
+        background: linear-gradient(180deg, #FFD8FC 0%, #FB41FF 100%);
+        opacity: 0.2;
+        filter: blur(200px);
+        width: 500px;
+        height: 500px;
+        bottom: 100px;
+        left: 550px;
+        position: absolute;
+        z-index: 1;
+
+        @media screen and (min-width: 1500px) {
+            bottom: 400px;
+        }
+
+        @media screen and (max-width: 850px) {
+            display: none;
+        }
+    }
+
+    .third_ellipse {
+        background: linear-gradient(180deg, #FF70F5 0%, #741A76 100%);
+        opacity: 0.4;
+        filter: blur(200px);
+        width: 500px;
+        height: 500px;
+        bottom: 0;
+        left: 950px;
+        position: absolute;
+        z-index: 1;
+
+        @media screen and (min-width: 1500px) {
+            bottom: 200px;
+        }
+
+        @media screen and (max-width: 850px) {
+            display: none;
+        }
+    }
+
+    h1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 88px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        padding-top: 12rem;
+
+        @media screen and (max-width: 850px) {
+            font-size: 60px;
+            padding-top: 4rem;
+            font-weight: 500;
+        }
+    }
+
+    p {
+        margin-top: 1rem;
+        width: 50%;
+        margin: auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        /* or 200% */
+
+        text-align: center;
+        letter-spacing: 0.3px;
+
+        color: rgba(217, 218, 255, 0.5);
+
+        @media screen and (max-width: 767px) {
+            width: 75%;
+        }
+    }
+}
