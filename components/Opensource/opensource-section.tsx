@@ -12,12 +12,14 @@ function OpensourceSection() {
       <h5>Opensource</h5>
       <h1>Buidlfy is Open Source</h1>
       <p>
-        There are many opportunities for designers, software engineers and
-        enthusiasts to contribute to the Buidlfy ecosystem
+        There are lots of opportunities for designers, developers, and
+        enthusiasts to contribute to the Buidlfy ecosystem.
       </p>
       <button
         className={styles.gradient_button}
-        onClick={() => window.open("https://app.buidlfy.com", "_blank")}
+        onClick={() =>
+          window.open("https://github.com/buidlfyHq/buidlfy/", "_blank")
+        }
       >
         <span>Explore Code</span>
         <GithubLogo />
