@@ -12,6 +12,7 @@ import Meta from "../components/Meta";
 import MobileNav from "../components/MobileNav";
 import NavBar from "../components/NavBar";
 import ShipSite from "../components/ShipSite";
+import OpensourceSection from "../components/Opensource";
 
 const Home: NextPage = () => {
   const [mobileNav, setMobileNav] = useState<boolean>(false);
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
       <MobileNav showMobileNav={mobileNav} setShowMobileNav={setMobileNav} />
       <NavBar setShowMobileNav={setMobileNav} />
       <DesignConnectShip />
+      <OpensourceSection />
       <ImaginationFlow />
       <ConnectContract />
       <ShipSite />

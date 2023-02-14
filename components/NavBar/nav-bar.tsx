@@ -38,6 +38,14 @@ function NavBar({ setShowMobileNav }: IProps) {
         </div>
         <div className={styles.right_nav}>
           <a
+            href="https://github.com/buidlfyHq/buidlfy/wiki"
+            target="_blank"
+            rel="noreferrer noopener"
+            className={styles.learn_tag}
+          >
+            Docs
+          </a>
+          <a
             href="https://bit.ly/buidlfy-discord"
             target="_blank"
             rel="noreferrer noopener"

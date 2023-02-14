@@ -46,6 +46,16 @@ function MobileNav({ showMobileNav, setShowMobileNav }: IProps) {
       <div className={styles.mobile__menu__bottom} ref={squareBoxRef}>
         <ul>
           <li>
+            <a
+              href="https://github.com/buidlfyHq/buidlfy/wiki"
+              target="_blank"
+              rel="noreferrer noopener"
+              className={styles.learn_tag}
+            >
+              <span>Docs</span>
+            </a>
+          </li>
+          <li>
             <Link href="https://discord.com/invite/vaHA8EnWND">
               <a>
                 <span>Join Community</span>
