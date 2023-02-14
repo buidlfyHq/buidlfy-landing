@@ -9,7 +9,7 @@ function OpensourceSection() {
       data-aos-once="true"
       data-aos-delay="300"
     >
-      <h5>Opensource</h5>
+      <h5>We love OSS</h5>
       <h1>Buidlfy is Open Source</h1>
       <p>
         There are lots of opportunities for designers, developers, and
