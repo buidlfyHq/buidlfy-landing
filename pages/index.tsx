@@ -11,8 +11,8 @@ import JoinDiscord from "../components/JoinDiscord";
 import Meta from "../components/Meta";
 import MobileNav from "../components/MobileNav";
 import NavBar from "../components/NavBar";
-import ShipSite from "../components/ShipSite";
 import OpensourceSection from "../components/Opensource";
+import ShipSite from "../components/ShipSite";
 
 const Home: NextPage = () => {
   const [mobileNav, setMobileNav] = useState<boolean>(false);
