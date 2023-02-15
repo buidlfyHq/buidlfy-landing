@@ -7,6 +7,7 @@ import styles from "../../styles/footer.module.scss";
 const socialData = [
   { icon: "twitter.svg", link: "https://bit.ly/buidlfytwitter" },
   { icon: "discord.svg", link: "https://bit.ly/buidlfy-discord" },
+  { icon: "github.svg", link: "https://github.com/buidlfyHq/buidlfy" },
   // { icon: "instagram.svg", link: "https://bit.ly/buidlfytwitter" },
 ];
 
